@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Wellness Tracking</title>
     <!--Icon CDN-->
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--Bootstrap css & js CDN links-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -21,7 +22,7 @@
 <body>
 
     <div class="continer-fluide">
-            
+
         <header>
             <nav>
                 <div class="logo">
@@ -39,77 +40,76 @@
                     <a class="button" data-bs-toggle="modal" href="#exampleModalToggle">Login</a>
                     <a class="button" data-bs-toggle="modal" href="#exampleModalToggle2">Signup</a>
                 </div>
-                    <!--Login Modal-->
-                    <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
-                        aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalToggleLabel">Login</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <form action="" method="post">
-                                        <div>
-                                            <label for="username">Username:</label>
-                                            <input type="text" id="username" name="username" required>
-                                        </div>
-                                        <div>
-                                            <label for="password">Password:</label>
-                                            <input type="password" id="password" name="password" required>
-                                        </div>
-                                        <div>
-                                            <a href="#">Forgot Password?</a>
-                                            <br>
-                                            <button type="submit">Login</button>
-                                        </div>
-                                        <span>Don't have an account? <a href="#" data-bs-target="#exampleModalToggle2"
-                                                data-bs-toggle="modal" data-bs-dismiss="modal">Signup</a></span>
-                                    </form>
+                <!--Login Modal-->
+                <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                    aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalToggleLabel">Login</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form action="" method="post">
+                                    <div>
+                                        <label for="username">Username:</label>
+                                        <input type="text" id="username" name="username" required>
+                                    </div>
+                                    <div>
+                                        <label for="password">Password:</label>
+                                        <input type="password" id="password" name="password" required>
+                                    </div>
+                                    <div>
+                                        <a href="#">Forgot Password?</a>
+                                        <br>
+                                        <button type="submit">Login</button>
+                                    </div>
+                                    <span>Don't have an account? <a href="#" data-bs-target="#exampleModalToggle2"
+                                            data-bs-toggle="modal" data-bs-dismiss="modal">Signup</a></span>
+                                </form>
 
-                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
-                        aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalToggleLabel2">Sign Up</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <form action="" method="post">
-                                        <div>
-                                            <label for="full_name">Full Name:</label>
-                                            <input type="text" id="full_name" name="full_name" required>
-                                        </div>
-                                        <div>
-                                            <label for="email">Email:</label>
-                                            <input type="email" id="email" name="email" required>
-                                        </div>
-                                        <div>
-                                            <label for="password">Password:</label>
-                                            <input type="password" id="password" name="password" required>
-                                        </div>
-                                        <div>
-                                            <label for="confirm_password">Confirm Password:</label>
-                                            <input type="password" id="confirm_password" name="confirm_password"
-                                                required>
-                                        </div>
-                                        <div>
-                                            <button type="submit" id="submit_button" disabled>Submit</button>
-                                        </div>
-                                        <span>Already have an account? <a href="#" data-bs-target="#exampleModalToggle"
-                                                data-bs-toggle="modal" data-bs-dismiss="modal">Login</a></span>
+                </div>
+                <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+                    aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalToggleLabel2">Sign Up</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form action="" method="post">
+                                    <div>
+                                        <label for="full_name">Full Name:</label>
+                                        <input type="text" id="full_name" name="full_name" required>
+                                    </div>
+                                    <div>
+                                        <label for="email">Email:</label>
+                                        <input type="email" id="email" name="email" required>
+                                    </div>
+                                    <div>
+                                        <label for="password">Password:</label>
+                                        <input type="password" id="password" name="password" required>
+                                    </div>
+                                    <div>
+                                        <label for="confirm_password">Confirm Password:</label>
+                                        <input type="password" id="confirm_password" name="confirm_password" required>
+                                    </div>
+                                    <div>
+                                        <button type="submit" id="submit_button" disabled>Submit</button>
+                                    </div>
+                                    <span>Already have an account? <a href="#" data-bs-target="#exampleModalToggle"
+                                            data-bs-toggle="modal" data-bs-dismiss="modal">Login</a></span>
 
-                                    </form>
-                                </div>
+                                </form>
                             </div>
                         </div>
+                    </div>
             </nav>
         </header>
 
@@ -127,20 +127,26 @@
         </section>
 
 
-    <section class="about-section">
-        <div class="content-container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2>About Us</h2>
-                    <p>We are dedicated to helping you achieve your health and wellness goals through personalized plans, advanced tracking, and a supportive community. Our mission is to empower you to live a healthier and happier life.</p>
-                    <p>Our team of experts is committed to providing you with the best tools and resources to track your progress and stay motivated. Join us and be a part of a community that values health and wellness as much as you do.</p>
-                    <p>We offer a variety of services, including personalized workout plans, nutritional guidance, mental wellness support, and more. Our advanced tracking features help you monitor your progress in real-time, ensuring you stay on track to achieve your goals.</p>
+        <section class="about-section">
+            <div class="content-container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>About Us</h2>
+                        <p>We are dedicated to helping you achieve your health and wellness goals through personalized
+                            plans, advanced tracking, and a supportive community. Our mission is to empower you to live
+                            a healthier and happier life.</p>
+                        <p>Our team of experts is committed to providing you with the best tools and resources to track
+                            your progress and stay motivated. Join us and be a part of a community that values health
+                            and wellness as much as you do.</p>
+                        <p>We offer a variety of services, including personalized workout plans, nutritional guidance,
+                            mental wellness support, and more. Our advanced tracking features help you monitor your
+                            progress in real-time, ensuring you stay on track to achieve your goals.</p>
+                    </div>
+                    <img src="images/about-image.jpg" alt="About Us">
                 </div>
-                <img src="images/about-image.jpg" alt="About Us">
-                </div>
-               
+
             </div>
-        </div>
+    </div>
     </section>
 
 
@@ -148,28 +154,198 @@
         <div class="content-container">
             <h2>Why Choose Us?</h2>
             <div class="features">
-                
-            <div class="feature" id="real-time-tracking">
-                     <div class="txt">
-                    <h3>Real-time Tracking</h3>
-                    <p>Monitor your progress and stay on track with our advanced tracking features.</p>
-                     </div>
+
+                <div class="feature" id="real-time-tracking">
+                    <div class="txt">
+                        <h3>Real-time Tracking</h3>
+                        <p>Monitor your progress and stay on track with our advanced tracking features.</p>
+                    </div>
                 </div>
                 <div class="feature" id="personalized-plans">
                     <div class="txt">
-                    <h3>Personalized Plans</h3>
-                    <p>Get a workout plan tailored to your needs and goals.</p>
-                </div>
+                        <h3>Personalized Plans</h3>
+                        <p>Get a workout plan tailored to your needs and goals.</p>
+                    </div>
                 </div>
                 <div class="feature" id="community-support">
-                     <div class="txt">
-                    <h3>Community Support</h3>
-                    <p>Join a community of like-minded individuals for motivation and support.</p>
-                     </div>
+                    <div class="txt">
+                        <h3>Community Support</h3>
+                        <p>Join a community of like-minded individuals for motivation and support.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!--Blog Section-->
+
+    <section class="wellness-blog">
+        <div class="main-post">
+            <div class="blog-img">
+
+            </div>
+            <div class="main-blog-content">
+                <h2>heading</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iste cumque ducimus quasi, aut soluta,
+                    esse
+                    maiores eum praesentium dolorum distinctio magnam harum cum optio a est. Perferendis, non nostrum?
+                </p>
+            </div>
+        </div>
+        <div class="blog-posts">
+            <div class="blog-post">
+                <h3>5 Tips for Healthy Weight Gain</h3>
+                <!-- <p>Discover how to gain weight in a healthy and sustainable way with our expert tips...</p> -->
+                <a href="#">Read More</a>
+            </div>
+            <div class="blog-post">
+                <h3>Effective Weight Loss Strategies</h3>
+                <!-- <p>Learn about the most effective strategies for losing weight and keeping it off...</p> -->
+                <a href="#">Read More</a>
+            </div>
+            <div class="blog-post">
+                <h3>Building Muscle: A Beginner's Guide</h3>
+                <!-- <p>Get started on your muscle-building journey with this comprehensive guide for beginners...</p> -->
+                <a href="#">Read More</a>
+            </div>
+            <div class="blog-post">
+                <h3>Stress Management Techniques</h3>
+                <!-- <p>Explore various techniques to manage stress and improve your mental well-being...</p> -->
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="wellness-goals">
+        <h1>Your Wellness Goals</h1>
+        <p>We provide comprehensive resources and personalized plans to help you achieve your wellness goals. Whether
+            you're looking to gain weight, lose weight, build muscle, or manage stress, we've got you covered.</p>
+        <div class="cards">
+            <a href="">
+                <div class="card weight-gain">
+
+                    <h2>Weight Gain</h2>
+
+                </div>
+            </a>
+            <a href="">
+                <div class="card weight-loss">
+
+                    <h2>Weight Loss</h2>
+
+
+                </div>
+            </a>
+            <a href="">
+
+                <div class="card muscle-building">
+
+                    <h2>Muscle Building</h2>
+
+
+                </div>
+            </a>
+            <a href="">
+
+                <div class="card stress-free">
+                    <h2>Stress-Free</h2>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!--Reviews Section-->
+
+    <section class="customer-reviews-carousel">
+        <h2>What Our Customers Say</h2>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="review">
+                        <p>"The personalized meal plans and workouts have completely transformed my life. I feel
+                            healthier and more energetic!"</p>
+                        <h4>John Doe</h4>
+                        <p>Fitness Enthusiast</p>
+                        
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="review">
+                        <p>"The stress management techniques offered here are incredible. I've found a new sense of
+                            balance and peace."</p>
+                        <h4>Jane Smith</h4>
+                        <p>Wellness Advocate</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="review">
+                        <p>"The muscle-building program is top-notch. I've seen noticeable gains and improvements in my
+                            strength."</p>
+                        <h4>Michael Brown</h4>
+                        <p>Bodybuilder</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa-solid fa-chevron-left"></i></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"> <i class="fa-solid fa-chevron-right"></i></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+ 
+    <section class="cta-section">
+        <div class="content-container">
+            <h2>Ready to Transform Your Life?</h2>
+            <p>Join our community today and start your journey towards better health and wellness. Get personalized plans, expert advice, and more!</p>
+            <a href="#" class="cta-button">Join Us Now</a>
+        </div>
+    </section>
+    
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <h2>Health is Wealth</h2>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Plans</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2024 Health is Wealth. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+
+
+
     </div>
 
 

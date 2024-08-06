@@ -192,18 +192,6 @@ span {
     font-size: 0.9em;
 }
 
-/* main-section css */
-
-.main-section {
-    padding: 70px 0;
-    background-color: #f4f4f4;
-}
-
-.content-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-}
 
 /* about */
 
@@ -218,7 +206,6 @@ body {
 /* About Section Styling */
 .about-section {
     padding: 70px 0;
-    background-color: #f4f4f4;
 }
 
 .content-container {
@@ -257,6 +244,18 @@ body {
     font-size: 1.2em;
     text-align: left;
     margin-bottom: 10px;
+}
+
+/* main-section css */
+
+.main-section {
+    padding: 70px 0;
+}
+
+.content-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 
@@ -328,3 +327,301 @@ p {
     font-size: 1em;
     line-height: 1.5;
 }
+
+/* Blog section */
+
+.wellness-blog {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f9f9f9;
+    display: flex;
+}
+
+.main-post{
+    display: flex;
+}
+
+.blog-posts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.blog-post{
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 15px;
+    width: calc(25% - 40px);
+    border-radius: 8px;
+    transition: transform 0.2s;
+    width: 40vw;
+}
+
+.blog-post h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.blog-post p {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.blog-post a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+
+
+/* Goal Active */
+
+
+.wellness-goals {
+    max-width: 100%;
+    margin: 2em auto;
+    padding: 2em;
+    text-align: center;
+}
+
+.wellness-goals h1 {
+    font-family: "Calistoga", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+}
+
+.wellness-goals p {
+    font-size: 1em;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2em;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.cards a{
+    text-decoration: none;
+}
+
+.card {
+    border-radius: 10px;
+    padding: 1em;
+    margin-bottom: 1.5em;
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 250px;
+}
+
+.cards a:hover{
+    scale: 1.02;
+    transition: all 0.5s;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    filter: brightness(60%);
+    z-index: 1;
+}
+.card h2 {
+    position: relative;
+    z-index: 2;
+    font-size: 2rem;
+    color: white;
+    margin-top: 5em;
+    font-family: "Calistoga", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+
+.card ul {
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.card ul li {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.card.weight-gain::before {
+    background: url('images/weight-gain.png') no-repeat center center/cover;
+}
+
+.card.weight-loss::before {
+    background: url('images/weight-loss.avif') no-repeat center center/cover;
+}
+
+.card.muscle-building::before {
+    background: url('images/muscle-build.webp') no-repeat center center/cover;
+}
+
+.card.stress-free::before {
+    background: url('images/stress-free.webp') no-repeat center center/cover;
+}
+
+/* Slider css */
+
+.customer-reviews-carousel {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.customer-reviews-carousel h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#carouselExampleIndicators .carousel-indicators button{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.carousel-item {
+    padding: 20px;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.review p {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.review h4 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.review p {
+    color: #666;
+}
+
+.carousel-control-prev span i{
+    color: black;
+    font-size: 2rem;
+}
+
+.carousel-control-next span i{
+    color: black;
+    font-size: 2rem;
+}
+
+
+.cta-section {
+    padding: 50px 0;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+}
+
+.cta-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.cta-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #ffffff;
+    color: #007bff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.cta-button:hover {
+    background-color: #e6e6e6;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo h2 {
+    margin: 0;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-social a {
+    color: white;
+    margin-right: 15px;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    color: #007bff;
+}
+
+.footer-copy {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
