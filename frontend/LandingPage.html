@@ -87,26 +87,30 @@
                                     <div>
                                         <label for="full_name">Full Name:</label>
                                         <input type="text" id="full_name" name="full_name" required>
+                                        <div class="error" id="nameError"></div>
                                     </div>
                                     <div>
                                         <label for="email">Email:</label>
                                         <input type="email" id="email" name="email" required>
+                                        <div class="error" id="emailError"></div>
                                     </div>
                                     <div>
                                         <label for="password">Password:</label>
                                         <input type="password" id="password" name="password" required>
+                                        <div class="error" id="passwordError"></div>
                                     </div>
                                     <div>
                                         <label for="confirm_password">Confirm Password:</label>
                                         <input type="password" id="confirm_password" name="confirm_password" required>
+                                        <div class="error" id="confirmPasswordError"></div>
                                     </div>
                                     <div>
                                         <button type="submit" id="submit_button" disabled>Submit</button>
                                     </div>
                                     <span>Already have an account? <a href="#" data-bs-target="#exampleModalToggle"
                                             data-bs-toggle="modal" data-bs-dismiss="modal">Login</a></span>
-
                                 </form>
+
                             </div>
                         </div>
                     </div>
@@ -125,7 +129,7 @@
                 <a href="#">Get's Start</a>
             </div>
         </section>
-<!--About section-->
+        <!--About section-->
 
         <section class="about-section">
             <div class="content-container">
@@ -180,38 +184,84 @@
     <!--Blog Section-->
 
     <section class="wellness-blog">
-        <div class="main-post">
-            <div class="blog-img">
-
-            </div>
-            <div class="main-blog-content">
-                <h2>heading</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iste cumque ducimus quasi, aut soluta,
-                    esse
-                    maiores eum praesentium dolorum distinctio magnam harum cum optio a est. Perferendis, non nostrum?
-                </p>
-            </div>
-        </div>
         <div class="blog-posts">
             <div class="blog-post">
-                <h3>5 Tips for Healthy Weight Gain</h3>
+                <a href="#">
+                    <img src="images/weight-gain-blog-img.jpg" alt="">
+                    <div class="blog-section">
 
-                <a href="#">Read More</a>
+                        <h3>5 Tips for Healthy Weight Gain</h3>
+                        <p>Gaining weight healthily can be as challenging as losing it. Whether you're building muscle,
+                            recovering from illness, or aiming for a healthier weight, it's crucial to focus on
+                            nutritious foods and balanced meals.</p>
+
+                    </div>
+                </a>
             </div>
             <div class="blog-post">
-                <h3>Effective Weight Loss Strategies</h3>
-              
-                <a href="#">Read More</a>
+                <a href="#">
+                    <img src="images/weight-loss-blog-img.jpg" alt="">
+                    <div class="blog-section">
+
+                        <h3>Effective Weight Loss Strategies</h3>
+                        <p>Gaining weight healthily can be as challenging as losing it. Whether you're building muscle,
+                            recovering from illness, or aiming for a healthier weight, it's crucial to focus on
+                            nutritious foods and balanced meals.</p>
+
+                    </div>
+                </a>
             </div>
             <div class="blog-post">
-                <h3>Building Muscle: A Beginner's Guide</h3>
-                
-                <a href="#">Read More</a>
+                <a href="#">
+                    <img src="images/weight-loss-blog-img.jpg" alt="">
+                    <div class="blog-section">
+
+                        <h3>Building Muscle: A Beginner's Guide</h3>
+                        <p>Gaining weight healthily can be as challenging as losing it. Whether you're building muscle,
+                            recovering from illness, or aiming for a healthier weight, it's crucial to focus on
+                            nutritious foods and balanced meals.</p>
+
+                    </div>
+                </a>
             </div>
             <div class="blog-post">
-                <h3>Stress Management Techniques</h3>
-                
-                <a href="#">Read More</a>
+                <a href="">
+                    <img src="images/weight-gain-blog-img.jpg" alt="">
+                    <div class="blog-section">
+
+                        <h3>Stress Management Techniques</h3>
+                        <p>Gaining weight healthily can be as challenging as losing it. Whether you're building muscle,
+                            recovering from illness, or aiming for a healthier weight, it's crucial to focus on
+                            nutritious foods and balanced meals.</p>
+
+                    </div>
+                </a>
+            </div>
+            <div class="blog-post">
+                <a href="">
+                    <img src="images/weight-gain-blog-img.jpg" alt="">
+                    <div class="blog-section">
+
+                        <h3>Stress Management Techniques</h3>
+                        <p>Gaining weight healthily can be as challenging as losing it. Whether you're building muscle,
+                            recovering from illness, or aiming for a healthier weight, it's crucial to focus on
+                            nutritious foods and balanced meals.</p>
+
+                    </div>
+                </a>
+            </div>
+            <div class="blog-post">
+                <a href="">
+                    <img src="images/weight-gain-blog-img.jpg" alt="">
+                    <div class="blog-section">
+
+                        <h3>Stress Management Techniques</h3>
+                        <p>Gaining weight healthily can be as challenging as losing it. Whether you're building muscle,
+                            recovering from illness, or aiming for a healthier weight, it's crucial to focus on
+                            nutritious foods and balanced meals.</p>
+
+                    </div>
+                </a>
             </div>
         </div>
     </section>
@@ -261,8 +311,9 @@
     <section class="call-to-action">
         <div class="container">
             <h2>Join Us Today!</h2>
-            
-            <p>Take the first step towards a healthier and happier you. Join our community and start your wellness journey today.</p>
+
+            <p>Take the first step towards a healthier and happier you. Join our community and start your wellness
+                journey today.</p>
             <a href="#" class="">Sign Up Now</a>
         </div>
     </section>
@@ -328,18 +379,17 @@
         <p class="para">Frequently Asked Questions</p>
         <div class="e-box">
             <div class="p-box">
-                <p id="click1">What is the Wellness Tracking Website?</p> <i class="fa-sharp fa-solid fa-angle-down icon"
-                    id="icon1"></i>
+                <p id="click1">What is the Wellness Tracking Website?</p> <i
+                    class="fa-sharp fa-solid fa-angle-down icon" id="icon1"></i>
             </div>
             <div class="boxs open" id="boxs1">
-              <p> Our Wellness Tracking Website offers personalized fitness plans, advanced tracking features,
-                and a supportive community to help you achieve your health and wellness goals.</p>
+                <p> Our Wellness Tracking Website offers personalized fitness plans, advanced tracking features,
+                    and a supportive community to help you achieve your health and wellness goals.</p>
             </div>
         </div>
         <div class="e-box">
             <div class="p-box">
-                <p id="click2">How do I sign up?</p> <i class="fa-sharp fa-solid fa-angle-down icon"
-                    id="icon2"></i>
+                <p id="click2">How do I sign up?</p> <i class="fa-sharp fa-solid fa-angle-down icon" id="icon2"></i>
             </div>
             <div class="boxs open" id="boxs2">
                 <p>You can sign up by clicking the "Sign Up Now" button on our website and filling out the
@@ -352,8 +402,8 @@
                     id="icon3"></i>
             </div>
             <div class="boxs open" id="boxs3">
-               <p>We offer both free and premium membership plans. You can choose the plan that best suits
-                your needs.</p>
+                <p>We offer both free and premium membership plans. You can choose the plan that best suits
+                    your needs.</p>
             </div>
         </div>
         <div class="e-box">
@@ -369,59 +419,59 @@
     </div>
 
     <!-- Footer -->
-   
+
     <footer>
         <div class="footer-container">
-          <div class="footer-top">
-            <div class="message-send-section">
-                <form action="#">
-                  <textarea placeholder="Your Message" required></textarea>
-                  <button type="submit">Send Message</button>
-                </form>
-              </div>
-            <div class="footer-section">
-              <h4>Latest News</h4>
-              <ul>
-                <li><a href="#">New Features Released</a></li>
-                <li><a href="#">Upcoming Wellness Events</a></li>
-                <li><a href="#">Tips for Healthy Living</a></li>
-              </ul>
+            <div class="footer-top">
+                <div class="message-send-section">
+                    <form action="#">
+                        <textarea placeholder="Your Message" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="footer-section">
+                    <h4>Latest News</h4>
+                    <ul>
+                        <li><a href="#">New Features Released</a></li>
+                        <li><a href="#">Upcoming Wellness Events</a></li>
+                        <li><a href="#">Tips for Healthy Living</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Our Partners</h4>
+                    <ul>
+                        <li><a href="#">Health Corp</a></li>
+                        <li><a href="#">Wellness World</a></li>
+                        <li><a href="#">Fitness First</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Information</h4>
+                    <ul>
+                        <li><a href="mailto:support@wellnessapp.com">support@wellnessapp.com</a></li>
+                        <li><a href="tel:+1234567890">+123 456 7890</a></li>
+                        <li><a href="#">123 Wellness St, Healthy City, HC 12345</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="footer-section">
-              <h4>Our Partners</h4>
-              <ul>
-                <li><a href="#">Health Corp</a></li>
-                <li><a href="#">Wellness World</a></li>
-                <li><a href="#">Fitness First</a></li>
-              </ul>
-            </div>
-            <div class="footer-section">
-              <h4>Contact Information</h4>
-              <ul>
-                <li><a href="mailto:support@wellnessapp.com">support@wellnessapp.com</a></li>
-                <li><a href="tel:+1234567890">+123 456 7890</a></li>
-                <li><a href="#">123 Wellness St, Healthy City, HC 12345</a></li>
-              </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Follow Us</h4>
-                <ul>
-                    <li><a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
-                    <li><a href="#"><i class="fa-brands fa-twitter"></i> Twitter</a></li>
-                    <li><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
-                    <li><a href="#"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
-                </ul>
-            </div>
-          </div>
-          <p class="copyright">&copy; 2024 Wellness App. All rights reserved.</p>
+            <p class="copyright">&copy; 2024 Wellness App. All rights reserved.</p>
         </div>
-      </footer>
-      
-      
-      
-      
-      
-    
+    </footer>
+
+
+
+
+
+
 
 
 

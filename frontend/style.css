@@ -376,14 +376,17 @@ p {
     margin: 3rem 0;
 }
 
-.main-post{
+/* .main-post{
     display: flex;
-}
+    text-align: left;
+    padding: 0 2rem;
+} */
 
 .blog-posts{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }
 
 
@@ -391,25 +394,40 @@ p {
     background: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 15px;
-    padding: 15px;
+    padding: 10px;
     width: calc(25% - 40px);
     border-radius: 8px;
     transition: transform 0.2s;
-    width: 40vw;
+    width: 45vw;
+    text-align: left;
+    display: flex;
+}
+/* .main-blog-content h2{
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+} */
+
+.blog-post img{
+    width: 120px;
+    height: 100px;
+}
+.blog-section{
+    padding-left: 1rem;
 }
 
 .blog-post h3 {
     font-size: 1.5em;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .blog-post p {
-    font-size: 1em;
-    margin-bottom: 15px;
+    font-size: 0.9em;
+    margin-bottom: 7px;
 }
 
 .blog-post a {
-    color: #007bff;
+    display: flex;
+    color: black;
     text-decoration: none;
 }
 
@@ -689,13 +707,14 @@ p {
     display: block;
 }
 
-/* Footer Styles */
+
 /* Footer Styles */
 footer {
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: black;
+    color: white;
     padding: 20px;
     text-align: center;
+   
   }
   
   .footer-container {
@@ -734,14 +753,14 @@ footer {
   }
   
   .footer-section ul li a {
-    color: #007bff;
+    color: rgb(150, 146, 146);
     text-decoration: none;
     font-size: 14px;
     transition: color 0.3s ease;
   }
   
   .footer-section ul li a:hover {
-    color: #0056b3;
+    color: rgb(252, 252, 252);
   }
   
   
@@ -772,8 +791,9 @@ footer {
   
   .message-send-section button {
     padding: 10px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: rgb(150, 146, 146);
+    color: black;
+    font-weight: bold;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -789,4 +809,6 @@ footer {
     margin-top: 20px;
     font-size: 14px;
   }
+  
+
   

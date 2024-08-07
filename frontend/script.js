@@ -1,10 +1,3 @@
-/* form validation */
-
-
-
-
-
-
 /* FAQ js */
 document.addEventListener('DOMContentLoaded', function () {
     const boxes = document.querySelectorAll('.e-box');
