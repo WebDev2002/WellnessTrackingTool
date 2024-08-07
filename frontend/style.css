@@ -62,22 +62,23 @@ nav {
 
 .login-signup-btn .button{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .button{
-    background-color: #007bff; 
+    background-color: #fff; 
     padding: 8px 16px;
     border-radius: 4px;
     margin-left: 10px;
     font-family: 'Arial', sans-serif;
     font-size: 16px;
     transition: background-color 0.3s ease;
+    opacity: .9;
+    font-weight: bold;
 }
 
 .button:hover{
-    background-color: #007bff;
-    color: white;
+    opacity: 1;
 }
 
 /* hero-section */
@@ -149,7 +150,6 @@ form div + div {
 label {
     display: block;
     margin-bottom: .5em;
-    font-weight: bold;
 }
 
 input {
@@ -159,6 +159,42 @@ input {
     width: 100%;
     box-sizing: border-box;
     border-radius: .3em;
+}
+.modal-dialog{
+    justify-content: center;
+}
+.modal-content{
+    width: 80%;
+    border-top-right-radius: 0;
+}
+
+.signup{
+    width: 90%;
+}
+
+.signup .modal-header .btn-close{
+    margin-left: 27em;
+}
+
+.modal-title{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 0;
+    padding: 1.3rem 0;
+}
+.modal-header{
+    border-bottom: none;
+}
+.modal-header .btn-close{
+    position: absolute;
+    background-color: white;
+    margin-left: 23.8em;
+    margin-bottom: 1.5rem;
+    outline: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 0.8rem;
 }
 
 /* Button Styling */
@@ -265,11 +301,11 @@ body {
     flex-wrap: wrap;
 }
 
-.feature {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.feature{
     color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     padding: 30px;
     border-radius: 10px;
     width: 30%;
@@ -282,8 +318,10 @@ body {
     cursor:default;
 }
 
-#personalized-plans {
+#personalized-plans{
     background-image: url('images/personalized-plans.jpg'); /* Add your image path here */
+
+
 }
 
 #real-time-tracking {
@@ -335,6 +373,7 @@ p {
     text-align: center;
     background-color: #f9f9f9;
     display: flex;
+    margin: 3rem 0;
 }
 
 .main-post{
@@ -384,6 +423,7 @@ p {
     margin: 2em auto;
     padding: 2em;
     text-align: center;
+    margin-bottom: 7em;
 }
 
 .wellness-goals h1 {
@@ -391,7 +431,7 @@ p {
     font-weight: 400;
     font-style: normal;
     letter-spacing: 2px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     font-size: 4rem;
 }
 
@@ -399,7 +439,7 @@ p {
     font-size: 1em;
     width: 90%;
     margin: auto;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
 }
 .cards{
     width: 100%;
@@ -483,8 +523,9 @@ p {
 .call-to-action {
     background-color: #f9f9f9; /* Primary color */
     color: black;
-    padding: 60px 15px;
+    padding: 20px 15px;
     text-align: center;
+    margin-bottom: 6rem;
 }
 
 .call-to-action h2 {
@@ -526,6 +567,7 @@ p {
 .customer-reviews-carousel {
     padding: 50px 0;
     text-align: center;
+    margin-bottom: 4.5rem;
 }
 
 .customer-reviews-carousel h2 {
@@ -584,13 +626,15 @@ p {
 .explore {
     width: 100%;
     background-color: rgb(252, 252, 252);
-    padding-bottom: 30px;
+    padding-bottom: 6rem;
+
 }
 
 .explore .para {
     font-size: 35px;
      text-align: center;
-    padding-top: 50px;
+    padding-top: 2rem;
+    padding-bottom: 0.7rem;
     font-family: "Calistoga", serif;
     font-weight: 400;
     font-style: normal;
