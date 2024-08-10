@@ -20,8 +20,20 @@
     z-index: -1;
 }
 
-.exercise-hero-section::before{
+#exercise-hero-section1::before{
     background: url("/images/weight-gain.png") no-repeat center center;
+    background-size: cover;
+}
+#exercise-hero-section2::before{
+    background: url("/images/weight-loss.avif") no-repeat center center;
+    background-size: cover;
+}
+#exercise-hero-section3::before{
+    background: url("/images/muscle-build.webp") no-repeat center center;
+    background-size: cover;
+}
+#exercise-hero-section4::before{
+    background: url("/images/stress-free.webp") no-repeat center center;
     background-size: cover;
 }
 
@@ -177,7 +189,7 @@
 
 .exercise-day {
     background-color: #ffffff;
-    padding: 15px;
+    padding: 8px 13px;
     border: 1px solid white;
     border-radius: 10px;
     margin: 0.5rem 0;
@@ -197,9 +209,10 @@
 }
 
 .exercise-day p {
-    margin-top: 10px;
+    margin-top:6px;
     font-size: 14px;
     color: #666;
+    margin-bottom: 0;
 }
 
 #beginnerExercisesday{
@@ -207,14 +220,14 @@
 }
 
 
-.Execises{
+#exercises{
     display: none;
 }
 
-.Exercisepage{
+#exercisepage{
     display: none;
 }
-.Execises {
+.Exercise{
     border-radius: 8px;
 }
 
@@ -262,7 +275,7 @@
 }
 
 
-.Execise {
+.Exercise {
     display: flex;
     align-items: center;
     background-color: #ffffff;
@@ -272,7 +285,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.Execise img {
+.Exercise img {
     width: 50px; 
     height: 50px; 
     object-fit: cover;
