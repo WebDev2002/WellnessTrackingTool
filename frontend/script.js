@@ -34,4 +34,21 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+document.addEventListener('DOMContentLoaded', function() {
+    const link1 = document.getElementById('exe1');
+    const link2 = document.getElementById('exe2');
+    const link3 = document.getElementById('exe3');
+    const link4 = document.getElementById('exe4');
+    const id1 = '0'; // Replace with your dynamic ID
+    const id2 = '1';
+    const id3 = '2';
+    const id4 = '3';
+
+    // Encode the ID and append it to the href
+    link1.href = `pages/exercise1.html?id=${encodeURIComponent(id1)}`;
+    link2.href = `pages/exercise2.html?id=${encodeURIComponent(id2)}`;
+    link3.href = `pages/exercise3.html?id=${encodeURIComponent(id3)}`;
+    link4.href = `pages/exercise4.html?id=${encodeURIComponent(id4)}`;
+});
+
 
