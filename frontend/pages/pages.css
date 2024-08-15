@@ -205,14 +205,8 @@
 .exercise-day h3 {
     margin: 0;
     font-size: 18px;
+    padding: 10px;
     color: #333;
-}
-
-.exercise-day p {
-    margin-top:6px;
-    font-size: 14px;
-    color: #666;
-    margin-bottom: 0;
 }
 
 #beginnerExercisesday{
