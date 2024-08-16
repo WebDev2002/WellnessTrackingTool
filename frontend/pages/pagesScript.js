@@ -19,35 +19,35 @@ const WeightGain = [
                                 sets: 3,
                                 reps: "10-12",
                                 notes: "Focus on proper form, keeping your body straight and core engaged.",
-                                image: "path/to/pushups-image.jpg"
+                                image: "Exercise-gif/push-up.gif"
                             },
                             {
                                 name: "Bodyweight Squats",
                                 sets: 3,
                                 reps: "12-15",
                                 notes: "Keep your feet shoulder-width apart and push through your heels.",
-                                image: "path/to/squats-image.jpg"
+                                image: "Exercise-gif/push-up1.gif"
                             },
                             {
                                 name: "Plank",
                                 sets: 3,
                                 time: "20-30 seconds",
                                 notes: "Maintain a straight line from head to heels, engaging your core.",
-                                image: "path/to/plank-image.jpg"
+                                image: "Exercise-gif/push-up1.gif"
                             },
                             {
                                 name: "Glute Bridges",
                                 sets: 3,
                                 reps: "12-15",
                                 notes: "Squeeze your glutes at the top and hold for a second.",
-                                image: "path/to/glute-bridges-image.jpg"
+                                image: "Exercise-gif/push-up.gif"
                             },
                             {
                                 name: "Superman",
                                 sets: 3,
                                 reps: "10-12",
                                 notes: "Lift your arms and legs off the ground simultaneously, engaging your back muscles.",
-                                image: "path/to/superman-image.jpg"
+                                image: "Exercise-gif/push-up1.gif"
                             }
                         ]
                     },
@@ -3333,6 +3333,8 @@ else if(id == 0 && ID == 2){
 
 
 function struct(val) {
+    console.log(val);
+    
 
     weekContainer.innerHTML='';
     Exercisesday.innerHTML='';
@@ -3360,11 +3362,13 @@ function struct(val) {
     let Exercise = val.week1[0].Days[0].exercises
 
     const Execontainer = document.getElementById('exercisepage');
+   
 
     // Create and append Exercise divs
     // let number = 5
     function ChangeData() {
         Execontainer.innerHTML = "";
+        if(Exercise && Exercise.length >0){
         for (let i = 0; i < Exercise.length; i++) {
             const exeobj = Exercise[i]
             // console.log(Exercise[i]);
@@ -3372,12 +3376,12 @@ function struct(val) {
             // name: "Push-Ups",
             // sets: 3,
             // reps: "10-12",
-            const exerciseDiv = document.createElement('div');
+           const exerciseDiv = document.createElement('div');
             exerciseDiv.className = 'Exercise';
             // Create and append the image
             const img = document.createElement('img');
-            img.src = '';
-            img.alt = `Exercise ${i + 1}`;
+            img.src = exeobj.image;
+            img.alt = `Exercise`;
             exerciseDiv.appendChild(img);
 
             // Create and append the details div
@@ -3386,7 +3390,7 @@ function struct(val) {
 
             // Create and append the heading
             const heading = document.createElement('h5');
-            heading.textContent = `${exeobj.name}`;
+            heading.textContent = exeobj.name;
             detailsDiv.appendChild(heading);
 
             // Create and append the paragraph
@@ -3398,6 +3402,14 @@ function struct(val) {
 
             Execontainer.appendChild(exerciseDiv);
         }
+    }else{
+        alert('Focus on light stretching or a short walk to keep your body active.');
+        Execontainer.style.display = 'none';
+            Exeheader.style.display = 'none';
+            Daycontainer.style.display = 'block';
+            week.style.display = 'flex';
+
+    }
     }
     ChangeData();
 
@@ -3451,8 +3463,7 @@ function struct(val) {
                 Exercise = val.week4[0].Days[0].exercises
 
             }
-            ChangeData();
-
+            ChangeData()
         });
 
         weekContainer.appendChild(button);
@@ -3512,14 +3523,14 @@ function struct(val) {
 
 
     let DayExercises = document.querySelectorAll('.exercise-day');
-
-    DayExercises.forEach(element => {
+    DayExercises.forEach((element, IndexVal) => {
         element.addEventListener('click', () => {
             Execontainer.style.display = 'block';
             Exeheader.style.display = 'flex';
             Daycontainer.style.display = 'none';
             week.style.display = 'none';
-
+            Exercise = Exeday[IndexVal].exercises;
+            ChangeData();
         })
     });
 
