@@ -69,6 +69,7 @@
 /* Exercise Plan Section */
 .ExercisePlan {
     width: 45%;
+     /* height: 100%; */
     background-color: #ffffff; 
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
@@ -295,7 +296,16 @@
     font-size: 14px;
     color: #666;
 }
+.DitePlan{
+    padding: 20px 15px;
+    overflow-y: hidden;
+}
+.meal-plan h2{
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 0;
 
-.show-exercise{
-    display: none;
+}
+.meal-plan ul{
+    padding: 0;
 }
