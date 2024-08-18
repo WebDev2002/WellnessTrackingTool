@@ -14,11 +14,12 @@ const WeightGain = [
                         day: 1,
                         name: "Full Body",
                         exercises: [
-                            { name: "Push-Ups", sets: 3, reps: "8-10", notes: "Focus on proper form, keeping your body straight and core engaged.", image: "Exercise-gif/push-up.gif" },
-                            { name: "Bodyweight Squats", sets: 3, reps: "10-12", notes: "Keep your feet shoulder-width apart and push through your heels.", image: "Exercise-gif/push-up1.gif" },
-                            { name: "Plank", sets: 3, time: "20-30 seconds", notes: "Maintain a straight line from head to heels, engaging your core.", image: "Exercise-gif/push-up1.gif" },
-                            { name: "Glute Bridges", sets: 3, reps: "12-15", notes: "Squeeze your glutes at the top and hold for a second.", image: "Exercise-gif/push-up.gif" },
-                            { name: "Superman", sets: 3, reps: "10-12", notes: "Lift your arms and legs off the ground simultaneously, engaging your back muscles.", image: "Exercise-gif/push-up1.gif" }
+                            { name: "Push-Ups", sets: 3, reps: "8-10", notes: "Focus on proper form, keeping your body straight and core engaged.", image: "Exercise-gif/WG-Push-Up.gif" },
+                            { name: "Bodyweight Squats", sets: 3, reps: "10-12", notes: "Keep your feet shoulder-width apart and push through your heels.", image: "Exercise-gif/WG-bodyweight-lunges.gif" },
+                            { name: "Plank", sets: 3, time: "20-30 seconds", notes: "Maintain a straight line from head to heels, engaging your core.", image: "Exercise-gif/WF-plank.gif" },
+                            { name: "Glute Bridges", sets: 3, reps: "12-15", notes: "Squeeze your glutes at the top and hold for a second.", image: "Exercise-gif/WG-Glute-Bridge.gif" },
+                            { name: "Superman", sets: 3, reps: "10-12", notes: "Lift your arms and legs off the ground simultaneously, engaging your back muscles.", image: "Exercise-gif/WG-Superman.gif" }
+                            
                         ]
                     },
                     /* Day 2 - Rest/Active Recovery */
@@ -33,11 +34,11 @@ const WeightGain = [
                         day: 3,
                         name: "Upper Body",
                         exercises: [
-                            { name: "Incline Push-Ups", sets: 3, reps: "8-10", notes: "Use a stable surface like a chair or couch for the incline.", image: "path/to/incline-pushups-image.jpg" },
-                            { name: "Tricep Dips (using a chair)", sets: 3, reps: "8-10", notes: "Use a chair or edge of a couch to perform this exercise.", image: "path/to/tricep-dips-image.jpg" },
-                            { name: "Plank to Shoulder Tap", sets: 3, reps: "8-10 taps per side", notes: "Keep your hips stable as you tap each shoulder.", image: "path/to/plank-shoulder-tap-image.jpg" },
-                            { name: "Pike Push-Ups", sets: 3, reps: "6-8", notes: "Focus on shoulders, maintaining a 90-degree angle at the hips.", image: "path/to/pike-pushups-image.jpg" },
-                            { name: "Bicep Curls (if you have light weights or resistance bands)", sets: 3, reps: "10-12", notes: "Maintain controlled movement.", image: "path/to/bicep-curls-image.jpg" }
+                            { name: "Incline Push-Ups", sets: 3, reps: "8-10", notes: "Use a stable surface like a chair or couch for the incline.", image: "Exercise-gif/WG-Incline-Push-Up.gif" },
+                            { name: "Tricep Dips (using a chair)", sets: 3, reps: "8-10", notes: "Use a chair or edge of a couch to perform this exercise.", image: "Exercise-gif/WG_Dips-Between-Chairs.gif" },
+                            { name: "Plank to Shoulder Tap", sets: 3, reps: "8-10 taps per side", notes: "Keep your hips stable as you tap each shoulder.", image: "Exercise-gif/WG-Shoulder-Tap-Push-up.gif" },
+                            { name: "Pike Push-Ups", sets: 3, reps: "6-8", notes: "Focus on shoulders, maintaining a 90-degree angle at the hips.", image: "Exercise-gif/WG-Bench-Pike-Push-up.gif" },
+                            { name: "Bicep Curls (if you have light weights or resistance bands)", sets: 3, reps: "10-12", notes: "Maintain controlled movement.", image: "Exercise-gif/WG-Double-Arm-Dumbbell-Curl.gif" }
                         ]
                     },
                     /* Day 4 - Rest/Active Recovery */
@@ -52,11 +53,11 @@ const WeightGain = [
                         day: 5,
                         name: "Lower Body",
                         exercises: [
-                            { name: "Lunges", sets: 3, reps: "8-10 per leg", notes: "Keep your front knee over your ankle, not past your toes.", image: "path/to/lunges-image.jpg" },
-                            { name: "Glute Bridges", sets: 3, reps: "12-15", notes: "Squeeze your glutes at the top.", image: "path/to/glute-bridges-image.jpg" },
-                            { name: "Wall Sit", sets: 3, time: "20-30 seconds", notes: "Hold the position as if you're sitting on an invisible chair.", image: "path/to/wall-sit-image.jpg" },
-                            { name: "Step-Ups (using a sturdy chair or step)", sets: 3, reps: "10 per leg", notes: "Use a sturdy chair or step.", image: "path/to/step-ups-image.jpg" },
-                            { name: "Calf Raises", sets: 3, reps: "15-20", notes: "Raise up onto your toes and hold for a second before lowering.", image: "path/to/calf-raises-image.jpg" }
+                            { name: "Lunges", sets: 3, reps: "8-10 per leg", notes: "Keep your front knee over your ankle, not past your toes.", image: "Exercise-gif/WG-bodyweight-lunges.gif" },
+                            { name: "Glute Bridges", sets: 3, reps: "12-15", notes: "Squeeze your glutes at the top.", image: "Exercise-gif/WG-Glute-Bridge.gif" },
+                            { name: "Wall Sit", sets: 3, time: "20-30 seconds", notes: "Hold the position as if you're sitting on an invisible chair.", image: "Exercise-gif/WG-Wall-Sit.webp" },
+                            { name: "Step-Ups (using a sturdy chair or step)", sets: 3, reps: "10 per leg", notes: "Use a sturdy chair or step.", image: "Exercise-gif/WG-weighted-step-up.gif " },
+                            { name: "Calf Raises", sets: 3, reps: "15-20", notes: "Raise up onto your toes and hold for a second before lowering.", image: "Exercise-gif/WG-Single-Leg-Calf-Raises.gif" }
                         ]
                     },
                     /* Day 6 - Rest/Active Recovery */
@@ -86,11 +87,12 @@ const WeightGain = [
                         day: 1,
                         name: "Full Body",
                         exercises: [
-                            { name: "Push-Ups", sets: 3, reps: "10-12", notes: "Maintain good form, keeping your core tight.", image: "path/to/pushups-image.jpg" },
-                            { name: "Bodyweight Squats", sets: 3, reps: "12-15", notes: "Increase the range of motion by going deeper into the squat.", image: "path/to/squats-image.jpg" },
-                            { name: "Plank", sets: 3, time: "30-40 seconds", notes: "Engage your core and maintain a straight line.", image: "path/to/plank-image.jpg" },
-                            { name: "Glute Bridges", sets: 3, reps: "15-20", notes: "Focus on squeezing your glutes at the top.", image: "path/to/glute-bridges-image.jpg" },
-                            { name: "Superman", sets: 3, reps: "12-15", notes: "Increase the hold time at the top to challenge your back muscles.", image: "path/to/superman-image.jpg" }
+                            { name: "Push-Ups", sets: 3, reps: "10-12", notes: "Focus on proper form, keeping your body straight and core engaged.", image: "Exercise-gif/WG-Push-Up.gif" },
+                            { name: "Bodyweight Squats", sets: 3, reps: "12-5", notes: "Keep your feet shoulder-width apart and push through your heels.", image: "Exercise-gif/WG-bodyweight-lunges.gif" },
+                            { name: "Plank", sets: 3, time: "30-40 seconds", notes: "Maintain a straight line from head to heels, engaging your core.", image: "Exercise-gif/WF-plank.gif" },
+                            { name: "Glute Bridges", sets: 3, reps: "15-20", notes: "Squeeze your glutes at the top and hold for a second.", image: "Exercise-gif/WG-Glute-Bridge.gif" },
+                            { name: "Superman", sets: 3, reps: "12-15", notes: "Lift your arms and legs off the ground simultaneously, engaging your back muscles.", image: "Exercise-gif/WG-Superman.gif" }
+                            
                         ]
                     },
                     /* Day 2 - Rest/Active Recovery */
@@ -105,10 +107,11 @@ const WeightGain = [
                         day: 3,
                         name: "Upper Body",
                         exercises: [
-                            { name: "Incline Push-Ups", sets: 3, reps: "10-12", notes: "Increase the intensity by lowering the incline if possible.", image: "path/to/incline-pushups-image.jpg" },
-                            { name: "Pike Push-Ups", sets: 3, reps: "8-10", notes: "Focus on controlling the movement and engaging your shoulders.", image: "path/to/pike-pushups-image.jpg" },
-                            { name: "Tricep Dips", sets: 3, reps: "10-12", notes: "Try to increase the range of motion.", image: "path/to/tricep-dips-image.jpg" },
-                            { name: "Plank to Shoulder Tap", sets: 3, reps: "12-16 (6-8 per side)", notes: "Keep your hips stable and move slowly.", image: "path/to/plank-shoulder-tap-image.jpg" }
+                            { name: "Incline Push-Ups", sets: 3, reps: "10-12", notes: "Use a stable surface like a chair or couch for the incline.", image: "Exercise-gif/WG-Incline-Push-Up.gif" },
+                            { name: "Tricep Dips (using a chair)", sets: 3, reps: "10-12", notes: "Use a chair or edge of a couch to perform this exercise.", image: "Exercise-gif/WG_Dips-Between-Chairs.gif" },
+                            { name: "Plank to Shoulder Tap", sets: 3, reps: "12-16 taps per side", notes: "Keep your hips stable as you tap each shoulder.", image: "Exercise-gif/WG-Shoulder-Tap-Push-up.gif" },
+                            { name: "Pike Push-Ups", sets: 3, reps: "8-10", notes: "Focus on shoulders, maintaining a 90-degree angle at the hips.", image: "Exercise-gif/WG-Bench-Pike-Push-up.gif" },
+                           
                         ]
                     },
                     /* Day 4 - Rest/Active Recovery */
@@ -123,10 +126,10 @@ const WeightGain = [
                         day: 5,
                         name: "Lower Body",
                         exercises: [
-                            { name: "Lunges", sets: 3, reps: "10-12 per leg", notes: "Keep your form tight, and increase the depth of the lunge.", image: "path/to/lunges-image.jpg" },
-                            { name: "Step-Ups", sets: 3, reps: "12-15 per leg", notes: "Use a higher step if possible for more intensity.", image: "path/to/step-ups-image.jpg" },
-                            { name: "Wall Sit", sets: 3, time: "30-40 seconds", notes: "Hold the position with a straight back and engage your core.", image: "path/to/wall-sit-image.jpg" },
-                            { name: "Calf Raises", sets: 3, reps: "18-20", notes: "Add a pause at the top of each rep to increase difficulty.", image: "path/to/calf-raises-image.jpg" }
+                            { name: "Lunges", sets: 3, reps: "10-12 per leg", notes: "Keep your front knee over your ankle, not past your toes.", image: "Exercise-gif/WG-bodyweight-lunges.gif" },
+                            { name: "Wall Sit", sets: 3, time: "30-40 seconds", notes: "Hold the position as if you're sitting on an invisible chair.", image: "Exercise-gif/WG-Wall-Sit.webp" },
+                            { name: "Step-Ups (using a sturdy chair or step)", sets: 3, reps: "12 per leg", notes: "Use a sturdy chair or step.", image: "Exercise-gif/WG-weighted-step-up.gif " },
+                            { name: "Calf Raises", sets: 3, reps: "18-20", notes: "Raise up onto your toes and hold for a second before lowering.", image: "Exercise-gif/WG-Single-Leg-Calf-Raises.gif" }
                         ]
                     },
                     /* Day 6 - Rest/Active Recovery */
@@ -156,11 +159,12 @@ const WeightGain = [
                         day: 1,
                         name: "Full Body",
                         exercises: [
-                            { name: "Push-Ups", sets: 3, reps: "12-15", notes: "Push for more reps while maintaining proper form.", image: "path/to/pushups-image.jpg" },
-                            { name: "Bodyweight Squats", sets: 3, reps: "15-18", notes: "Try to increase the speed without sacrificing form.", image: "path/to/squats-image.jpg" },
-                            { name: "Plank", sets: 3, time: "40-50 seconds", notes: "Hold the plank longer while keeping your core engaged.", image: "path/to/plank-image.jpg" },
-                            { name: "Glute Bridges", sets: 3, reps: "18-20", notes: "Focus on squeezing your glutes at the top.", image: "path/to/glute-bridges-image.jpg" },
-                            { name: "Superman", sets: 3, reps: "15-18", notes: "Increase the reps or hold time at the top.", image: "path/to/superman-image.jpg" }
+                            { name: "Push-Ups", sets: 3, reps: "12-15", notes: "Focus on proper form, keeping your body straight and core engaged.", image: "Exercise-gif/WG-Push-Up.gif" },
+                            { name: "Bodyweight Squats", sets: 3, reps: "15-18", notes: "Keep your feet shoulder-width apart and push through your heels.", image: "Exercise-gif/WG-bodyweight-lunges.gif" },
+                            { name: "Plank", sets: 3, time: "40-50 seconds", notes: "Maintain a straight line from head to heels, engaging your core.", image: "Exercise-gif/WF-plank.gif" },
+                            { name: "Glute Bridges", sets: 3, reps: "18-20", notes: "Squeeze your glutes at the top and hold for a second.", image: "Exercise-gif/WG-Glute-Bridge.gif" },
+                            { name: "Superman", sets: 3, reps: "15-18", notes: "Lift your arms and legs off the ground simultaneously, engaging your back muscles.", image: "Exercise-gif/WG-Superman.gif" }
+                            
                         ]
                     },
                     /* Day 2 - Rest/Active Recovery */
@@ -175,10 +179,11 @@ const WeightGain = [
                         day: 3,
                         name: "Upper Body",
                         exercises: [
-                            { name: "Incline Push-Ups", sets: 3, reps: "12-15", notes: "Lower the incline or perform regular push-ups if you can.", image: "path/to/incline-pushups-image.jpg" },
-                            { name: "Pike Push-Ups", sets: 3, reps: "10-12", notes: "Control the movement, focusing on shoulder engagement.", image: "path/to/pike-pushups-image.jpg" },
-                            { name: "Tricep Dips", sets: 3, reps: "12-15", notes: "Increase the range of motion for more intensity.", image: "path/to/tricep-dips-image.jpg" },
-                            { name: "Plank to Shoulder Tap", sets: 3, reps: "16-20 taps (8-10 per side)", notes: "Slow and controlled movement is key.", image: "path/to/plank-shoulder-tap-image.jpg" }
+                            { name: "Incline Push-Ups", sets: 3, reps: "12-15", notes: "Use a stable surface like a chair or couch for the incline.", image: "Exercise-gif/WG-Incline-Push-Up.gif" },
+                            { name: "Tricep Dips (using a chair)", sets: 3, reps: "12-15", notes: "Use a chair or edge of a couch to perform this exercise.", image: "Exercise-gif/WG_Dips-Between-Chairs.gif" },
+                            { name: "Plank to Shoulder Tap", sets: 3, reps: "16-20 taps per side", notes: "Keep your hips stable as you tap each shoulder.", image: "Exercise-gif/WG-Shoulder-Tap-Push-up.gif" },
+                            { name: "Pike Push-Ups", sets: 3, reps: "10-12", notes: "Focus on shoulders, maintaining a 90-degree angle at the hips.", image: "Exercise-gif/WG-Bench-Pike-Push-up.gif" },
+                           
                         ]
                     },
                     /* Day 4 - Rest/Active Recovery */
@@ -193,10 +198,10 @@ const WeightGain = [
                         day: 5,
                         name: "Lower Body",
                         exercises: [
-                            { name: "Lunges", sets: 3, reps: "12-15 per leg", notes: "Increase the range of motion or add a pause at the bottom.", image: "path/to/lunges-image.jpg" },
-                            { name: "Step-Ups", sets: 3, reps: "15-18 per leg", notes: "Use a higher step or add more reps.", image: "path/to/step-ups-image.jpg" },
-                            { name: "Wall Sit", sets: 3, time: "40-50 seconds", notes: "Hold the position for longer with good posture.", image: "path/to/wall-sit-image.jpg" },
-                            { name: "Calf Raises", sets: 3, reps: "20-25", notes: "Focus on a slow and controlled movement.", image: "path/to/calf-raises-image.jpg" }
+                            { name: "Lunges", sets: 3, reps: "12-15 per leg", notes: "Keep your front knee over your ankle, not past your toes.", image: "Exercise-gif/WG-bodyweight-lunges.gif" },
+                            { name: "Wall Sit", sets: 3, time: "40-50 seconds", notes: "Hold the position as if you're sitting on an invisible chair.", image: "Exercise-gif/WG-Wall-Sit.webp" },
+                            { name: "Step-Ups (using a sturdy chair or step)", sets: 3, reps: "15 per leg", notes: "Use a sturdy chair or step.", image: "Exercise-gif/WG-weighted-step-up.gif " },
+                            { name: "Calf Raises", sets: 3, reps: "20-25", notes: "Raise up onto your toes and hold for a second before lowering.", image: "Exercise-gif/WG-Single-Leg-Calf-Raises.gif" }
                         ]
                     },
                     /* Day 6 - Rest/Active Recovery */
@@ -226,11 +231,11 @@ const WeightGain = [
                         day: 1,
                         name: "Full Body",
                         exercises: [
-                            { name: "Push-Ups", sets: 3, reps: "15-20", notes: "Challenge yourself with more reps while maintaining form.", image: "path/to/pushups-image.jpg" },
-                            { name: "Bodyweight Squats", sets: 3, reps: "18-20", notes: "Increase the speed or depth of the squat.", image: "path/to/squats-image.jpg" },
-                            { name: "Plank", sets: 3, time: "50-60 seconds", notes: "Hold the plank as long as possible with good form.", image: "path/to/plank-image.jpg" },
-                            { name: "Glute Bridges", sets: 3, reps: "20-25", notes: "Squeeze your glutes at the top and hold for a second.", image: "path/to/glute-bridges-image.jpg" },
-                            { name: "Superman", sets: 3, reps: "18-20", notes: "Increase the hold time or reps.", image: "path/to/superman-image.jpg" }
+                            { name: "Push-Ups", sets: 3, reps: "15-20", notes: "Challenge yourself with more reps while maintaining form.", image: "Exercise-gif/WG-Push-Up.gif" },
+                            { name: "Bodyweight Squats", sets: 3, reps: "18-20", notes: "Increase the speed or depth of the squat.", image: "Exercise-gif/WG-bodyweight-lunges.gif"},
+                            { name: "Plank", sets: 3, time: "50-60 seconds", notes: "Hold the plank as long as possible with good form.", image: "Exercise-gif/WF-plank.gif"  },
+                            { name: "Glute Bridges", sets: 3, reps: "20-25", notes: "Squeeze your glutes at the top and hold for a second.", image: "Exercise-gif/WG-Glute-Bridge.gif" },
+                            { name: "Superman", sets: 3, reps: "18-20", notes: "Increase the hold time or reps.", image: "Exercise-gif/WG-Superman.gif" }
                         ]
                     },
                     /* Day 2 - Rest/Active Recovery */
@@ -245,10 +250,11 @@ const WeightGain = [
                         day: 3,
                         name: "Upper Body",
                         exercises: [
-                            { name: "Incline Push-Ups", sets: 3, reps: "15-20", notes: "Perform regular push-ups if possible.", image: "path/to/incline-pushups-image.jpg" },
-                            { name: "Pike Push-Ups", sets: 3, reps: "12-15", notes: "Focus on controlled movement, engaging the shoulders.", image: "path/to/pike-pushups-image.jpg" },
-                            { name: "Tricep Dips", sets: 3, reps: "15-18", notes: "Increase the intensity by adding more reps.", image: "path/to/tricep-dips-image.jpg" },
-                            { name: "Plank to Shoulder Tap", sets: 3, reps: "20-24 taps (10-12 per side)", notes: "Keep your movements controlled.", image: "path/to/plank-shoulder-tap-image.jpg" }
+                            { name: "Incline Push-Ups", sets: 3, reps: "15-20", notes: "Use a stable surface like a chair or couch for the incline.", image: "Exercise-gif/WG-Incline-Push-Up.gif" },
+                            { name: "Tricep Dips (using a chair)", sets: 3, reps: "15-18", notes: "Use a chair or edge of a couch to perform this exercise.", image: "Exercise-gif/WG_Dips-Between-Chairs.gif" },
+                            { name: "Plank to Shoulder Tap", sets: 3, reps: "20-24 taps per side", notes: "Keep your hips stable as you tap each shoulder.", image: "Exercise-gif/WG-Shoulder-Tap-Push-up.gif" },
+                            { name: "Pike Push-Ups", sets: 3, reps: "12-15", notes: "Focus on shoulders, maintaining a 90-degree angle at the hips.", image: "Exercise-gif/WG-Bench-Pike-Push-up.gif" },
+                           
                         ]
                     },
                     /* Day 4 - Rest/Active Recovery */
@@ -263,10 +269,10 @@ const WeightGain = [
                         day: 5,
                         name: "Lower Body",
                         exercises: [
-                            { name: "Lunges", sets: 3, reps: "15-20 per leg", notes: "Increase the range of motion or reps.", image: "path/to/lunges-image.jpg" },
-                            { name: "Step-Ups", sets: 3, reps: "18-20 per leg", notes: "Use a higher step or add more reps.", image: "path/to/step-ups-image.jpg" },
-                            { name: "Wall Sit", sets: 3, time: "50-60 seconds", notes: "Hold the position for longer with good posture.", image: "path/to/wall-sit-image.jpg" },
-                            { name: "Calf Raises", sets: 3, reps: "25-30", notes: "Focus on a slow and controlled movement.", image: "path/to/calf-raises-image.jpg" }
+                            { name: "Lunges", sets: 3, reps: "15-20 per leg", notes: "Keep your front knee over your ankle, not past your toes.", image: "Exercise-gif/WG-bodyweight-lunges.gif" },
+                            { name: "Wall Sit", sets: 3, time: "50-60 seconds", notes: "Hold the position as if you're sitting on an invisible chair.", image: "Exercise-gif/WG-Wall-Sit.webp" },
+                            { name: "Step-Ups (using a sturdy chair or step)", sets: 3, reps: "18 per leg", notes: "Use a sturdy chair or step.", image: "Exercise-gif/WG-weighted-step-up.gif " },
+                            { name: "Calf Raises", sets: 3, reps: "25-30", notes: "Raise up onto your toes and hold for a second before lowering.", image: "Exercise-gif/WG-Single-Leg-Calf-Raises.gif" }
                         ]
                     },
                     /* Day 6 - Rest/Active Recovery */
@@ -300,18 +306,18 @@ const WeightGain = [
                         day: 1,
                         name: "Full Body",
                         exercises: [
-                            { name: "Push-Ups", sets: 3, reps: "10-12", notes: "Maintain proper form with a straight body line.", image: "path/to/push-ups-image.jpg" },
-                            { name: "Bodyweight Squats", sets: 3, reps: "12-15", notes: "Keep your feet shoulder-width apart, lower yourself slowly.", image: "path/to/bodyweight-squats-image.jpg" },
-                            { name: "Plank", sets: 3, time: "30-40 seconds", notes: "Engage your core and keep your body straight.", image: "path/to/plank-image.jpg" },
-                            { name: "Glute Bridges", sets: 3, reps: "15-20", notes: "Squeeze your glutes at the top of the movement.", image: "path/to/glute-bridges-image.jpg" },
-                            { name: "Superman", sets: 3, reps: "12-15", notes: "Lift your arms and legs while engaging your back muscles.", image: "path/to/superman-image.jpg" }
+                            { name: "Push-Ups", sets: 3, reps: "10-12", notes: "Focus on proper form, keeping your body straight and core engaged.", image: "Exercise-gif/WG-Push-Up.gif" },
+                            { name: "Bodyweight Squats", sets: 3, reps: "12-15", notes: "Keep your feet shoulder-width apart and push through your heels.", image: "Exercise-gif/WG-bodyweight-lunges.gif" },
+                            { name: "Plank", sets: 3, time: "30-40 seconds", notes: "Maintain a straight line from head to heels, engaging your core.", image: "Exercise-gif/WF-plank.gif" },
+                            { name: "Glute Bridges", sets: 3, reps: "15-20", notes: "Squeeze your glutes at the top and hold for a second.", image: "Exercise-gif/WG-Glute-Bridge.gif" },
+                            { name: "Superman", sets: 3, reps: "12-15", notes: "Lift your arms and legs off the ground simultaneously, engaging your back muscles.", image: "Exercise-gif/WG-Superman.gif" }
                         ]
                     },
                     /* Day 2 - Rest/Active Recovery */
                     {
                         day: 2,
                         name: "Rest/Active Recovery",
-                        notes: "Engage in light stretching, yoga, or a brisk walk.",
+                        notes: "Focus on light stretching or a short walk to keep your body active.",
                         image: "path/to/rest-day-image.jpg"
                     },
                     /* Day 3 - Upper Body */
@@ -319,18 +325,18 @@ const WeightGain = [
                         day: 3,
                         name: "Upper Body",
                         exercises: [
-                            { name: "Incline Push-Ups", sets: 3, reps: "10-12", notes: "Use a stable surface for incline. Keep elbows at 45 degrees.", image: "path/to/incline-push-ups-image.jpg" },
-                            { name: "Tricep Dips (using a chair)", sets: 3, reps: "10-12", notes: "Perform dips with controlled movement.", image: "path/to/tricep-dips-image.jpg" },
-                            { name: "Plank to Shoulder Tap", sets: 3, reps: "10-12 per side", notes: "Stabilize your body while tapping each shoulder.", image: "path/to/plank-to-shoulder-tap-image.jpg" },
-                            { name: "Pike Push-Ups", sets: 3, reps: "8-10", notes: "Focus on your shoulders while maintaining a pike position.", image: "path/to/pike-push-ups-image.jpg" },
-                            { name: "Bicep Curls (with light weights or resistance bands)", sets: 3, reps: "12-15", notes: "Maintain control throughout the movement.", image: "path/to/bicep-curls-image.jpg" }
+                            { name: "Incline Push-Ups", sets: 3, reps: "10-12", notes: "Use a stable surface like a chair or couch for the incline.", image: "Exercise-gif/WG-Incline-Push-Up.gif" },
+                            { name: "Tricep Dips (using a chair)", sets: 3, reps: "10-12", notes: "Use a chair or edge of a couch to perform this exercise.", image: "Exercise-gif/WG_Dips-Between-Chairs.gif" },
+                            { name: "Plank to Shoulder Tap", sets: 3, reps: "10-12 taps per side", notes: "Keep your hips stable as you tap each shoulder.", image: "Exercise-gif/WG-Shoulder-Tap-Push-up.gif" },
+                            { name: "Pike Push-Ups", sets: 3, reps: "8-10", notes: "Focus on shoulders, maintaining a 90-degree angle at the hips.", image: "Exercise-gif/WG-Bench-Pike-Push-up.gif" },
+                            { name: "Bicep Curls (if you have light weights or resistance bands)", sets: 3, reps: "12-15", notes: "Maintain controlled movement.", image: "Exercise-gif/WG-Double-Arm-Dumbbell-Curl.gif" }
                         ]
                     },
                     /* Day 4 - Rest/Active Recovery */
                     {
                         day: 4,
                         name: "Rest/Active Recovery",
-                        notes: "Light activities like stretching, yoga, or walking are beneficial.",
+                        notes: "Engage in light stretching, yoga, or an easy walk.",
                         image: "path/to/rest-day-image2.jpg"
                     },
                     /* Day 5 - Lower Body */
@@ -338,31 +344,31 @@ const WeightGain = [
                         day: 5,
                         name: "Lower Body",
                         exercises: [
-                            { name: "Lunges", sets: 3, reps: "10-12 per leg", notes: "Keep your knee aligned with your ankle.", image: "path/to/lunges-image.jpg" },
-                            { name: "Glute Bridges", sets: 3, reps: "15-20", notes: "Hold the bridge position and squeeze your glutes.", image: "path/to/glute-bridges-image.jpg" },
-                            { name: "Wall Sit", sets: 3, time: "30-40 seconds", notes: "Maintain a 90-degree angle at the knees.", image: "path/to/wall-sit-image.jpg" },
-                            { name: "Step-Ups (using a sturdy chair or step)", sets: 3, reps: "12 per leg", notes: "Use a sturdy platform to step up.", image: "path/to/step-ups-image.jpg" },
-                            { name: "Calf Raises", sets: 3, reps: "15-20", notes: "Raise onto your toes and hold for a brief moment.", image: "path/to/calf-raises-image.jpg" }
+                            { name: "Lunges", sets: 3, reps: "10-12 per leg", notes: "Keep your front knee over your ankle, not past your toes.", image: "Exercise-gif/WG-bodyweight-lunges.gif" },
+                            { name: "Glute Bridges", sets: 3, reps: "15-20", notes: "Squeeze your glutes at the top.", image: "Exercise-gif/WG-Glute-Bridge.gif" },
+                            { name: "Wall Sit", sets: 3, time: "30-40 seconds", notes: "Hold the position as if you're sitting on an invisible chair.", image: "Exercise-gif/WG-Wall-Sit.webp" },
+                            { name: "Step-Ups (using a sturdy chair or step)", sets: 3, reps: "12 per leg", notes: "Use a sturdy chair or step.", image: "Exercise-gif/WG-weighted-step-up.gif " },
+                            { name: "Calf Raises", sets: 3, reps: "15-20", notes: "Raise up onto your toes and hold for a second before lowering.", image: "Exercise-gif/WG-Single-Leg-Calf-Raises.gif" }
                         ]
                     },
                     /* Day 6 - Rest/Active Recovery */
                     {
                         day: 6,
                         name: "Rest/Active Recovery",
-                        notes: "Focus on light activities to help with recovery.",
+                        notes: "Continue with light activities like walking or stretching.",
                         image: "path/to/rest-day-image3.jpg"
                     },
                     /* Day 7 - Rest */
                     {
                         day: 7,
                         name: "Rest",
-                        notes: "Complete rest day to allow for full recovery.",
+                        notes: "Complete rest day.",
                         image: "path/to/rest-day-image4.jpg"
                     }
                 ]
             }
         ],
-
+    
         /* week-2 */
         week2: [
             {
@@ -372,18 +378,18 @@ const WeightGain = [
                         day: 1,
                         name: "Full Body",
                         exercises: [
-                            { name: "Push-Ups", sets: 3, reps: "12-15", notes: "Increase reps while maintaining proper form.", image: "path/to/push-ups-image.jpg" },
-                            { name: "Bodyweight Squats", sets: 3, reps: "15-18", notes: "Add depth to your squats for more challenge.", image: "path/to/bodyweight-squats-image.jpg" },
-                            { name: "Plank", sets: 3, time: "40-50 seconds", notes: "Hold the plank longer, keeping core engaged.", image: "path/to/plank-image.jpg" },
-                            { name: "Glute Bridges", sets: 3, reps: "18-20", notes: "Squeeze and hold at the top of the movement.", image: "path/to/glute-bridges-image.jpg" },
-                            { name: "Superman", sets: 3, reps: "15-18", notes: "Increase hold time at the top for added difficulty.", image: "path/to/superman-image.jpg" }
+                            { name: "Push-Ups", sets: 3, reps: "12-15", notes: "Focus on proper form, keeping your body straight and core engaged.", image: "Exercise-gif/WG-Push-Up.gif" },
+                            { name: "Bodyweight Squats", sets: 3, reps: "15-18", notes: "Keep your feet shoulder-width apart and push through your heels.", image: "Exercise-gif/WG-bodyweight-lunges.gif" },
+                            { name: "Plank", sets: 3, time: "40-50 seconds", notes: "Maintain a straight line from head to heels, engaging your core.", image: "Exercise-gif/WF-plank.gif" },
+                            { name: "Glute Bridges", sets: 3, reps: "20-25", notes: "Squeeze your glutes at the top and hold for a second.", image: "Exercise-gif/WG-Glute-Bridge.gif" },
+                            { name: "Superman", sets: 3, reps: "15-18", notes: "Lift your arms and legs off the ground simultaneously, engaging your back muscles.", image: "Exercise-gif/WG-Superman.gif" }
                         ]
                     },
                     /* Day 2 - Rest/Active Recovery */
                     {
                         day: 2,
                         name: "Rest/Active Recovery",
-                        notes: "Engage in activities like stretching or a light walk.",
+                        notes: "Include light stretching, yoga, or an easy walk to keep your body active.",
                         image: "path/to/rest-day-image.jpg"
                     },
                     /* Day 3 - Upper Body */
@@ -391,17 +397,17 @@ const WeightGain = [
                         day: 3,
                         name: "Upper Body",
                         exercises: [
-                            { name: "Incline Push-Ups", sets: 3, reps: "12-15", notes: "Decrease the incline to increase difficulty.", image: "path/to/incline-push-ups-image.jpg" },
-                            { name: "Pike Push-Ups", sets: 3, reps: "10-12", notes: "Focus on shoulder engagement and control.", image: "path/to/pike-push-ups-image.jpg" },
-                            { name: "Tricep Dips", sets: 3, reps: "12-15", notes: "Try to increase range of motion.", image: "path/to/tricep-dips-image.jpg" },
-                            { name: "Plank to Shoulder Tap", sets: 3, reps: "12-16 (6-8 per side)", notes: "Keep movement slow and controlled.", image: "path/to/plank-to-shoulder-tap-image.jpg" }
+                            { name: "Incline Push-Ups", sets: 3, reps: "12-15", notes: "Use a stable surface like a chair or couch for the incline.", image: "Exercise-gif/WG-Incline-Push-Up.gif" },
+                            { name: "Tricep Dips (using a chair)", sets: 3, reps: "12-15", notes: "Use a chair or edge of a couch to perform this exercise.", image: "Exercise-gif/WG_Dips-Between-Chairs.gif" },
+                            { name: "Plank to Shoulder Tap", sets: 3, reps: "12-16 taps per side", notes: "Keep your hips stable as you tap each shoulder.", image: "Exercise-gif/WG-Shoulder-Tap-Push-up.gif" },
+                            { name: "Pike Push-Ups", sets: 3, reps: "10-12", notes: "Focus on shoulders, maintaining a 90-degree angle at the hips.", image: "Exercise-gif/WG-Bench-Pike-Push-up.gif" }
                         ]
                     },
                     /* Day 4 - Rest/Active Recovery */
                     {
                         day: 4,
                         name: "Rest/Active Recovery",
-                        notes: "Light activities like stretching or gentle yoga are recommended.",
+                        notes: "Light stretching or a gentle yoga session is recommended.",
                         image: "path/to/rest-day-image2.jpg"
                     },
                     /* Day 5 - Lower Body */
@@ -409,30 +415,30 @@ const WeightGain = [
                         day: 5,
                         name: "Lower Body",
                         exercises: [
-                            { name: "Lunges", sets: 3, reps: "12-15 per leg", notes: "Increase depth of the lunge for added intensity.", image: "path/to/lunges-image.jpg" },
-                            { name: "Step-Ups", sets: 3, reps: "15-18 per leg", notes: "Use a higher step or add more reps.", image: "path/to/step-ups-image.jpg" },
-                            { name: "Wall Sit", sets: 3, time: "40-50 seconds", notes: "Maintain a straight back and engage your core.", image: "path/to/wall-sit-image.jpg" },
-                            { name: "Calf Raises", sets: 3, reps: "18-20", notes: "Add a pause at the top for increased difficulty.", image: "path/to/calf-raises-image.jpg" }
+                            { name: "Lunges", sets: 3, reps: "12-15 per leg", notes: "Keep your front knee over your ankle, not past your toes.", image: "Exercise-gif/WG-bodyweight-lunges.gif" },
+                            { name: "Wall Sit", sets: 3, time: "40-50 seconds", notes: "Hold the position as if you're sitting on an invisible chair.", image: "Exercise-gif/WG-Wall-Sit.webp" },
+                            { name: "Step-Ups (using a sturdy chair or step)", sets: 3, reps: "15 per leg", notes: "Use a sturdy chair or step.", image: "Exercise-gif/WG-weighted-step-up.gif " },
+                            { name: "Calf Raises", sets: 3, reps: "20-25", notes: "Raise up onto your toes and hold for a second before lowering.", image: "Exercise-gif/WG-Single-Leg-Calf-Raises.gif" }
                         ]
                     },
                     /* Day 6 - Rest/Active Recovery */
                     {
                         day: 6,
                         name: "Rest/Active Recovery",
-                        notes: "Engage in light stretching, yoga, or walking.",
+                        notes: "Focus on light stretching or a short walk.",
                         image: "path/to/rest-day-image3.jpg"
                     },
                     /* Day 7 - Rest */
                     {
                         day: 7,
                         name: "Rest",
-                        notes: "Take a full rest day to recover.",
+                        notes: "Complete rest day.",
                         image: "path/to/rest-day-image4.jpg"
                     }
                 ]
             }
         ],
-
+    
         /* week-3 */
         week3: [
             {
@@ -442,18 +448,18 @@ const WeightGain = [
                         day: 1,
                         name: "Full Body",
                         exercises: [
-                            { name: "Push-Ups", sets: 3, reps: "15-18", notes: "Increase difficulty with more reps or a slow pace.", image: "path/to/push-ups-image.jpg" },
-                            { name: "Bodyweight Squats", sets: 3, reps: "18-20", notes: "Try adding a pause at the bottom.", image: "path/to/bodyweight-squats-image.jpg" },
-                            { name: "Plank", sets: 3, time: "50-60 seconds", notes: "Hold the plank for a longer duration.", image: "path/to/plank-image.jpg" },
-                            { name: "Glute Bridges", sets: 3, reps: "20-25", notes: "Add a single-leg variation for added challenge.", image: "path/to/glute-bridges-image.jpg" },
-                            { name: "Superman", sets: 3, reps: "18-20", notes: "Increase hold time and focus on muscle engagement.", image: "path/to/superman-image.jpg" }
+                            { name: "Push-Ups", sets: 4, reps: "12-15", notes: "Maintain proper form.", image: "Exercise-gif/WG-Push-Up.gif" },
+                            { name: "Bodyweight Squats", sets: 4, reps: "15-18", notes: "Push through your heels.", image: "Exercise-gif/WG-bodyweight-lunges.gif" },
+                            { name: "Plank", sets: 4, time: "40-50 seconds", notes: "Engage your core.", image: "Exercise-gif/WF-plank.gif" },
+                            { name: "Glute Bridges", sets: 4, reps: "20-25", notes: "Squeeze your glutes at the top.", image: "Exercise-gif/WG-Glute-Bridge.gif" },
+                            { name: "Superman", sets: 4, reps: "15-20", notes: "Lift arms and legs simultaneously.", image: "Exercise-gif/WG-Superman.gif" }
                         ]
                     },
                     /* Day 2 - Rest/Active Recovery */
                     {
                         day: 2,
                         name: "Rest/Active Recovery",
-                        notes: "Light stretching or a gentle walk are recommended.",
+                        notes: "Engage in light stretching or a walk.",
                         image: "path/to/rest-day-image.jpg"
                     },
                     /* Day 3 - Upper Body */
@@ -461,17 +467,17 @@ const WeightGain = [
                         day: 3,
                         name: "Upper Body",
                         exercises: [
-                            { name: "Incline Push-Ups", sets: 3, reps: "15-18", notes: "Gradually decrease the incline.", image: "path/to/incline-push-ups-image.jpg" },
-                            { name: "Pike Push-Ups", sets: 3, reps: "12-15", notes: "Increase the difficulty by raising your hips higher.", image: "path/to/pike-push-ups-image.jpg" },
-                            { name: "Tricep Dips", sets: 3, reps: "15-18", notes: "Perform with a full range of motion.", image: "path/to/tricep-dips-image.jpg" },
-                            { name: "Plank to Shoulder Tap", sets: 3, reps: "15-18 (8-9 per side)", notes: "Maintain a slow and controlled movement.", image: "path/to/plank-to-shoulder-tap-image.jpg" }
+                            { name: "Incline Push-Ups", sets: 4, reps: "12-15", notes: "Focus on form.", image: "Exercise-gif/WG-Incline-Push-Up.gif" },
+                            { name: "Tricep Dips (using a chair)", sets: 4, reps: "12-15", notes: "Perform on a chair or couch.", image: "Exercise-gif/WG_Dips-Between-Chairs.gif" },
+                            { name: "Plank to Shoulder Tap", sets: 4, reps: "15-18 taps per side", notes: "Keep hips stable.", image: "Exercise-gif/WG-Shoulder-Tap-Push-up.gif" },
+                            { name: "Pike Push-Ups", sets: 4, reps: "10-12", notes: "Maintain a 90-degree angle at the hips.", image: "Exercise-gif/WG-Bench-Pike-Push-up.gif" }
                         ]
                     },
                     /* Day 4 - Rest/Active Recovery */
                     {
                         day: 4,
                         name: "Rest/Active Recovery",
-                        notes: "Focus on light stretching, yoga, or gentle walking.",
+                        notes: "Light activities recommended.",
                         image: "path/to/rest-day-image2.jpg"
                     },
                     /* Day 5 - Lower Body */
@@ -479,30 +485,30 @@ const WeightGain = [
                         day: 5,
                         name: "Lower Body",
                         exercises: [
-                            { name: "Lunges", sets: 3, reps: "15-18 per leg", notes: "Perform walking lunges for increased intensity.", image: "path/to/lunges-image.jpg" },
-                            { name: "Step-Ups", sets: 3, reps: "18-20 per leg", notes: "Add weights or increase step height for challenge.", image: "path/to/step-ups-image.jpg" },
-                            { name: "Wall Sit", sets: 3, time: "50-60 seconds", notes: "Increase time or add weights.", image: "path/to/wall-sit-image.jpg" },
-                            { name: "Calf Raises", sets: 3, reps: "20-25", notes: "Perform on one leg for added difficulty.", image: "path/to/calf-raises-image.jpg" }
+                            { name: "Lunges", sets: 4, reps: "15 per leg", notes: "Keep front knee over ankle.", image: "Exercise-gif/WG-bodyweight-lunges.gif" },
+                            { name: "Wall Sit", sets: 4, time: "50-60 seconds", notes: "Hold the position.", image: "Exercise-gif/WG-Wall-Sit.webp" },
+                            { name: "Step-Ups (using a sturdy chair or step)", sets: 4, reps: "15 per leg", notes: "Use a sturdy chair or step.", image: "Exercise-gif/WG-weighted-step-up.gif " },
+                            { name: "Calf Raises", sets: 4, reps: "20-25", notes: "Raise onto toes and hold.", image: "Exercise-gif/WG-Single-Leg-Calf-Raises.gif" }
                         ]
                     },
                     /* Day 6 - Rest/Active Recovery */
                     {
                         day: 6,
                         name: "Rest/Active Recovery",
-                        notes: "Engage in activities like gentle stretching or light yoga.",
+                        notes: "Engage in light stretching or walking.",
                         image: "path/to/rest-day-image3.jpg"
                     },
                     /* Day 7 - Rest */
                     {
                         day: 7,
                         name: "Rest",
-                        notes: "Complete rest day to allow for full recovery.",
+                        notes: "Complete rest day.",
                         image: "path/to/rest-day-image4.jpg"
                     }
                 ]
             }
         ],
-
+    
         /* week-4 */
         week4: [
             {
@@ -512,18 +518,18 @@ const WeightGain = [
                         day: 1,
                         name: "Full Body",
                         exercises: [
-                            { name: "Push-Ups", sets: 3, reps: "18-20", notes: "Increase reps or slow down for more challenge.", image: "path/to/push-ups-image.jpg" },
-                            { name: "Bodyweight Squats", sets: 3, reps: "20-25", notes: "Try single-leg squats for additional difficulty.", image: "path/to/bodyweight-squats-image.jpg" },
-                            { name: "Plank", sets: 3, time: "60-70 seconds", notes: "Aim for a longer plank duration with proper form.", image: "path/to/plank-image.jpg" },
-                            { name: "Glute Bridges", sets: 3, reps: "25-30", notes: "Include single-leg variations for increased intensity.", image: "path/to/glute-bridges-image.jpg" },
-                            { name: "Superman", sets: 3, reps: "20-25", notes: "Extend hold time and focus on back muscle engagement.", image: "path/to/superman-image.jpg" }
+                            { name: "Push-Ups", sets: 4, reps: "15-18", notes: "Focus on form and control.", image: "Exercise-gif/WG-Push-Up.gif" },
+                            { name: "Bodyweight Squats", sets: 4, reps: "18-20", notes: "Push through heels and maintain good form.", image: "Exercise-gif/WG-bodyweight-lunges.gif" },
+                            { name: "Plank", sets: 4, time: "50-60 seconds", notes: "Maintain a straight line from head to heels.", image: "Exercise-gif/WF-plank.gif" },
+                            { name: "Glute Bridges", sets: 4, reps: "25-30", notes: "Squeeze glutes at the top.", image: "Exercise-gif/WG-Glute-Bridge.gif" },
+                            { name: "Superman", sets: 4, reps: "20", notes: "Lift arms and legs simultaneously.", image: "Exercise-gif/WG-Superman.gif" }
                         ]
                     },
                     /* Day 2 - Rest/Active Recovery */
                     {
                         day: 2,
                         name: "Rest/Active Recovery",
-                        notes: "Engage in light stretching or a gentle walk.",
+                        notes: "Include light stretching or a gentle walk.",
                         image: "path/to/rest-day-image.jpg"
                     },
                     /* Day 3 - Upper Body */
@@ -531,17 +537,17 @@ const WeightGain = [
                         day: 3,
                         name: "Upper Body",
                         exercises: [
-                            { name: "Incline Push-Ups", sets: 3, reps: "18-20", notes: "Decrease the incline gradually.", image: "path/to/incline-push-ups-image.jpg" },
-                            { name: "Pike Push-Ups", sets: 3, reps: "15-18", notes: "Increase the height of your hips for more difficulty.", image: "path/to/pike-push-ups-image.jpg" },
-                            { name: "Tricep Dips", sets: 3, reps: "18-20", notes: "Perform dips with a full range of motion.", image: "path/to/tricep-dips-image.jpg" },
-                            { name: "Plank to Shoulder Tap", sets: 3, reps: "18-20 (9 per side)", notes: "Maintain a steady and controlled movement.", image: "path/to/plank-to-shoulder-tap-image.jpg" }
+                            { name: "Incline Push-Ups", sets: 4, reps: "15-18", notes: "Focus on controlled movements.", image: "Exercise-gif/WG-Incline-Push-Up.gif" },
+                            { name: "Tricep Dips (using a chair)", sets: 4, reps: "15-18", notes: "Use a chair or edge of a couch.", image: "Exercise-gif/WG_Dips-Between-Chairs.gif" },
+                            { name: "Plank to Shoulder Tap", sets: 4, reps: "18-20 taps per side", notes: "Maintain stable hips.", image: "Exercise-gif/WG-Shoulder-Tap-Push-up.gif" },
+                            { name: "Pike Push-Ups", sets: 4, reps: "12-15", notes: "Maintain a 90-degree angle at the hips.", image: "Exercise-gif/WG-Bench-Pike-Push-up.gif" }
                         ]
                     },
                     /* Day 4 - Rest/Active Recovery */
                     {
                         day: 4,
                         name: "Rest/Active Recovery",
-                        notes: "Light stretching or a gentle walk are beneficial.",
+                        notes: "Focus on light stretching or yoga.",
                         image: "path/to/rest-day-image2.jpg"
                     },
                     /* Day 5 - Lower Body */
@@ -549,31 +555,31 @@ const WeightGain = [
                         day: 5,
                         name: "Lower Body",
                         exercises: [
-                            { name: "Lunges", sets: 3, reps: "18-20 per leg", notes: "Try walking lunges for added intensity.", image: "path/to/lunges-image.jpg" },
-                            { name: "Step-Ups", sets: 3, reps: "20-25 per leg", notes: "Increase the step height or use weights for more challenge.", image: "path/to/step-ups-image.jpg" },
-                            { name: "Wall Sit", sets: 3, time: "60-70 seconds", notes: "Add weight or increase duration for more challenge.", image: "path/to/wall-sit-image.jpg" },
-                            { name: "Calf Raises", sets: 3, reps: "25-30", notes: "Perform on one leg for increased difficulty.", image: "path/to/calf-raises-image.jpg" }
+                            { name: "Lunges", sets: 4, reps: "15-18 per leg", notes: "Keep your front knee over your ankle.", image: "Exercise-gif/WG-bodyweight-lunges.gif" },
+                            { name: "Wall Sit", sets: 4, time: "60 seconds", notes: "Hold position as if sitting on a chair.", image: "Exercise-gif/WG-Wall-Sit.webp" },
+                            { name: "Step-Ups (using a sturdy chair or step)", sets: 4, reps: "20 per leg", notes: "Use a sturdy chair or step.", image: "Exercise-gif/WG-weighted-step-up.gif " },
+                            { name: "Calf Raises", sets: 4, reps: "25-30", notes: "Raise up onto toes and hold briefly.", image: "Exercise-gif/WG-Single-Leg-Calf-Raises.gif" }
                         ]
                     },
                     /* Day 6 - Rest/Active Recovery */
                     {
                         day: 6,
                         name: "Rest/Active Recovery",
-                        notes: "Gentle stretching or light yoga can aid in recovery.",
+                        notes: "Engage in light stretching or walking.",
                         image: "path/to/rest-day-image3.jpg"
                     },
                     /* Day 7 - Rest */
                     {
                         day: 7,
                         name: "Rest",
-                        notes: "Full rest day for recovery.",
+                        notes: "Complete rest day.",
                         image: "path/to/rest-day-image4.jpg"
                     }
                 ]
             }
         ]
-
     },
+   
 
     /* Advance exercise */
 
@@ -587,18 +593,18 @@ const WeightGain = [
                         day: 1,
                         name: "Full Body",
                         exercises: [
-                            { name: "Push-Ups", sets: 4, reps: "15-20", notes: "Increase reps and slow down the pace for added difficulty.", image: "path/to/push-ups-image.jpg" },
-                            { name: "Bodyweight Squats", sets: 4, reps: "20-25", notes: "Add a pause at the bottom and a jump at the top for extra intensity.", image: "path/to/bodyweight-squats-image.jpg" },
-                            { name: "Plank", sets: 4, time: "40-60 seconds", notes: "Aim for longer durations with proper form.", image: "path/to/plank-image.jpg" },
-                            { name: "Glute Bridges", sets: 4, reps: "20-25", notes: "Include single-leg variations for added difficulty.", image: "path/to/glute-bridges-image.jpg" },
-                            { name: "Superman", sets: 4, reps: "20-25", notes: "Increase hold time at the top for more challenge.", image: "path/to/superman-image.jpg" }
+                            { name: "Push-Ups", sets: 4, reps: "12-15", notes: "Focus on proper form, keeping your body straight and core engaged.", image: "Exercise-gif/WG-Push-Up.gif" },
+                            { name: "Bodyweight Squats", sets: 4, reps: "15-20", notes: "Keep your feet shoulder-width apart and push through your heels.", image: "Exercise-gif/WG-bodyweight-lunges.gif" },
+                            { name: "Plank", sets: 4, time: "40-50 seconds", notes: "Maintain a straight line from head to heels, engaging your core.", image: "Exercise-gif/WF-plank.gif" },
+                            { name: "Glute Bridges", sets: 4, reps: "20-25", notes: "Squeeze your glutes at the top and hold for a second.", image: "Exercise-gif/WG-Glute-Bridge.gif" },
+                            { name: "Superman", sets: 4, reps: "15-20", notes: "Lift your arms and legs off the ground simultaneously, engaging your back muscles.", image: "Exercise-gif/WG-Superman.gif" }
                         ]
                     },
                     /* Day 2 - Rest/Active Recovery */
                     {
                         day: 2,
                         name: "Rest/Active Recovery",
-                        notes: "Engage in activities like yoga, foam rolling, or a brisk walk.",
+                        notes: "Focus on light stretching or a short walk to keep your body active.",
                         image: "path/to/rest-day-image.jpg"
                     },
                     /* Day 3 - Upper Body */
@@ -606,18 +612,18 @@ const WeightGain = [
                         day: 3,
                         name: "Upper Body",
                         exercises: [
-                            { name: "Incline Push-Ups", sets: 4, reps: "15-20", notes: "Gradually decrease the incline for added difficulty.", image: "path/to/incline-push-ups-image.jpg" },
-                            { name: "Tricep Dips (using a chair or bench)", sets: 4, reps: "15-20", notes: "Increase range of motion and control the movement.", image: "path/to/tricep-dips-image.jpg" },
-                            { name: "Plank to Shoulder Tap", sets: 4, reps: "15-20 per side", notes: "Keep movements slow and controlled.", image: "path/to/plank-to-shoulder-tap-image.jpg" },
-                            { name: "Pike Push-Ups", sets: 4, reps: "12-15", notes: "Increase the height of your hips for more intensity.", image: "path/to/pike-push-ups-image.jpg" },
-                            { name: "Bicep Curls (with heavy weights or resistance bands)", sets: 4, reps: "15-20", notes: "Focus on full range of motion and control.", image: "path/to/bicep-curls-image.jpg" }
+                            { name: "Incline Push-Ups", sets: 4, reps: "12-15", notes: "Use a stable surface like a chair or couch for the incline.", image: "Exercise-gif/WG-Incline-Push-Up.gif" },
+                            { name: "Tricep Dips (using a chair)", sets: 4, reps: "12-15", notes: "Use a chair or edge of a couch to perform this exercise.", image: "Exercise-gif/WG_Dips-Between-Chairs.gif" },
+                            { name: "Plank to Shoulder Tap", sets: 4, reps: "12-15 taps per side", notes: "Keep your hips stable as you tap each shoulder.", image: "Exercise-gif/WG-Shoulder-Tap-Push-up.gif" },
+                            { name: "Pike Push-Ups", sets: 4, reps: "10-12", notes: "Focus on shoulders, maintaining a 90-degree angle at the hips.", image: "Exercise-gif/WG-Bench-Pike-Push-up.gif" },
+                            { name: "Bicep Curls (if you have light weights or resistance bands)", sets: 4, reps: "12-15", notes: "Maintain controlled movement.", image: "Exercise-gif/WG-Double-Arm-Dumbbell-Curl.gif" }
                         ]
                     },
                     /* Day 4 - Rest/Active Recovery */
                     {
                         day: 4,
                         name: "Rest/Active Recovery",
-                        notes: "Engage in activities like light stretching or yoga to aid recovery.",
+                        notes: "Engage in light stretching, yoga, or an easy walk.",
                         image: "path/to/rest-day-image2.jpg"
                     },
                     /* Day 5 - Lower Body */
@@ -625,31 +631,31 @@ const WeightGain = [
                         day: 5,
                         name: "Lower Body",
                         exercises: [
-                            { name: "Lunges", sets: 4, reps: "15-20 per leg", notes: "Add weights or increase lunge depth for added intensity.", image: "path/to/lunges-image.jpg" },
-                            { name: "Glute Bridges", sets: 4, reps: "20-25", notes: "Incorporate a pause at the top and single-leg variations.", image: "path/to/glute-bridges-image.jpg" },
-                            { name: "Wall Sit", sets: 4, time: "50-60 seconds", notes: "Increase duration or add weights for more challenge.", image: "path/to/wall-sit-image.jpg" },
-                            { name: "Step-Ups (using a high step or weights)", sets: 4, reps: "15-20 per leg", notes: "Use a higher step or add weights for increased difficulty.", image: "path/to/step-ups-image.jpg" },
-                            { name: "Calf Raises", sets: 4, reps: "20-25", notes: "Perform on one leg or add weights for increased challenge.", image: "path/to/calf-raises-image.jpg" }
+                            { name: "Lunges", sets: 4, reps: "12-15 per leg", notes: "Keep your front knee over your ankle, not past your toes.", image: "Exercise-gif/WG-bodyweight-lunges.gif" },
+                            { name: "Glute Bridges", sets: 4, reps: "20-25", notes: "Squeeze your glutes at the top.", image: "Exercise-gif/WG-Glute-Bridge.gif" },
+                            { name: "Wall Sit", sets: 4, time: "40-50 seconds", notes: "Hold the position as if you're sitting on an invisible chair.", image: "Exercise-gif/WG-Wall-Sit.webp" },
+                            { name: "Step-Ups (using a sturdy chair or step)", sets: 4, reps: "15 per leg", notes: "Use a sturdy chair or step.", image: "Exercise-gif/WG-weighted-step-up.gif " },
+                            { name: "Calf Raises", sets: 4, reps: "20-25", notes: "Raise up onto your toes and hold for a second before lowering.", image: "Exercise-gif/WG-Single-Leg-Calf-Raises.gif" }
                         ]
                     },
                     /* Day 6 - Rest/Active Recovery */
                     {
                         day: 6,
                         name: "Rest/Active Recovery",
-                        notes: "Focus on gentle stretching or a light activity for recovery.",
+                        notes: "Continue with light activities like walking or stretching.",
                         image: "path/to/rest-day-image3.jpg"
                     },
                     /* Day 7 - Rest */
                     {
                         day: 7,
                         name: "Rest",
-                        notes: "Full rest day to allow for complete recovery.",
+                        notes: "Complete rest day.",
                         image: "path/to/rest-day-image4.jpg"
                     }
                 ]
             }
         ],
-
+        
         /* week-2 */
         week2: [
             {
@@ -659,18 +665,18 @@ const WeightGain = [
                         day: 1,
                         name: "Full Body",
                         exercises: [
-                            { name: "Push-Ups", sets: 4, reps: "20-25", notes: "Increase reps or slow down the pace for added challenge.", image: "path/to/push-ups-image.jpg" },
-                            { name: "Bodyweight Squats", sets: 4, reps: "25-30", notes: "Add jump squats or single-leg variations for more intensity.", image: "path/to/bodyweight-squats-image.jpg" },
-                            { name: "Plank", sets: 4, time: "50-60 seconds", notes: "Increase hold time for additional difficulty.", image: "path/to/plank-image.jpg" },
-                            { name: "Glute Bridges", sets: 4, reps: "25-30", notes: "Incorporate single-leg variations and hold at the top.", image: "path/to/glute-bridges-image.jpg" },
-                            { name: "Superman", sets: 4, reps: "25-30", notes: "Increase the hold time at the top for added challenge.", image: "path/to/superman-image.jpg" }
+                            { name: "Push-Ups", sets: 4, reps: "15-18", notes: "Focus on proper form, keeping your body straight and core engaged.", image: "Exercise-gif/WG-Push-Up.gif" },
+                            { name: "Bodyweight Squats", sets: 4, reps: "18-20", notes: "Keep your feet shoulder-width apart and push through your heels.", image: "Exercise-gif/WG-bodyweight-lunges.gif" },
+                            { name: "Plank", sets: 4, time: "50-60 seconds", notes: "Maintain a straight line from head to heels, engaging your core.", image: "Exercise-gif/WF-plank.gif" },
+                            { name: "Glute Bridges", sets: 4, reps: "25-30", notes: "Squeeze your glutes at the top and hold for a second.", image: "Exercise-gif/WG-Glute-Bridge.gif" },
+                            { name: "Superman", sets: 4, reps: "18-20", notes: "Lift your arms and legs off the ground simultaneously, engaging your back muscles.", image: "Exercise-gif/WG-Superman.gif" }
                         ]
                     },
                     /* Day 2 - Rest/Active Recovery */
                     {
                         day: 2,
                         name: "Rest/Active Recovery",
-                        notes: "Engage in activities like stretching or light aerobic exercise.",
+                        notes: "Include light stretching, yoga, or an easy walk to keep your body active.",
                         image: "path/to/rest-day-image.jpg"
                     },
                     /* Day 3 - Upper Body */
@@ -678,17 +684,17 @@ const WeightGain = [
                         day: 3,
                         name: "Upper Body",
                         exercises: [
-                            { name: "Incline Push-Ups", sets: 4, reps: "20-25", notes: "Decrease the incline to increase difficulty.", image: "path/to/incline-push-ups-image.jpg" },
-                            { name: "Pike Push-Ups", sets: 4, reps: "15-20", notes: "Increase difficulty by raising your hips higher.", image: "path/to/pike-push-ups-image.jpg" },
-                            { name: "Tricep Dips", sets: 4, reps: "20-25", notes: "Perform with increased range of motion.", image: "path/to/tricep-dips-image.jpg" },
-                            { name: "Plank to Shoulder Tap", sets: 4, reps: "20-25 per side", notes: "Keep movements slow and controlled.", image: "path/to/plank-to-shoulder-tap-image.jpg" }
+                            { name: "Incline Push-Ups", sets: 4, reps: "15-18", notes: "Use a stable surface like a chair or couch for the incline.", image: "Exercise-gif/WG-Incline-Push-Up.gif" },
+                            { name: "Tricep Dips (using a chair)", sets: 4, reps: "15-18", notes: "Use a chair or edge of a couch to perform this exercise.", image: "Exercise-gif/WG_Dips-Between-Chairs.gif" },
+                            { name: "Plank to Shoulder Tap", sets: 4, reps: "15-18 taps per side", notes: "Keep your hips stable as you tap each shoulder.", image: "Exercise-gif/WG-Shoulder-Tap-Push-up.gif" },
+                            { name: "Pike Push-Ups", sets: 4, reps: "12-15", notes: "Focus on shoulders, maintaining a 90-degree angle at the hips.", image: "Exercise-gif/WG-Bench-Pike-Push-up.gif" }
                         ]
                     },
                     /* Day 4 - Rest/Active Recovery */
                     {
                         day: 4,
                         name: "Rest/Active Recovery",
-                        notes: "Engage in gentle yoga or stretching exercises.",
+                        notes: "Light stretching or a gentle yoga session is recommended.",
                         image: "path/to/rest-day-image2.jpg"
                     },
                     /* Day 5 - Lower Body */
@@ -696,30 +702,30 @@ const WeightGain = [
                         day: 5,
                         name: "Lower Body",
                         exercises: [
-                            { name: "Lunges", sets: 4, reps: "20-25 per leg", notes: "Increase depth or add weights for additional challenge.", image: "path/to/lunges-image.jpg" },
-                            { name: "Step-Ups", sets: 4, reps: "20-25 per leg", notes: "Use a higher step or add weights for more intensity.", image: "path/to/step-ups-image.jpg" },
-                            { name: "Wall Sit", sets: 4, time: "60-70 seconds", notes: "Increase duration or add weights for added difficulty.", image: "path/to/wall-sit-image.jpg" },
-                            { name: "Calf Raises", sets: 4, reps: "25-30", notes: "Perform on one leg or with added weights for increased challenge.", image: "path/to/calf-raises-image.jpg" }
+                            { name: "Lunges", sets: 4, reps: "15-18 per leg", notes: "Keep your front knee over your ankle, not past your toes.", image: "Exercise-gif/WG-bodyweight-lunges.gif" },
+                            { name: "Wall Sit", sets: 4, time: "50-60 seconds", notes: "Hold the position as if you're sitting on an invisible chair.", image: "Exercise-gif/WG-Wall-Sit.webp" },
+                            { name: "Step-Ups (using a sturdy chair or step)", sets: 4, reps: "18 per leg", notes: "Use a sturdy chair or step.", image: "Exercise-gif/WG-weighted-step-up.gif " },
+                            { name: "Calf Raises", sets: 4, reps: "25-30", notes: "Raise up onto your toes and hold for a second before lowering.", image: "Exercise-gif/WG-Single-Leg-Calf-Raises.gif" }
                         ]
                     },
                     /* Day 6 - Rest/Active Recovery */
                     {
                         day: 6,
                         name: "Rest/Active Recovery",
-                        notes: "Engage in activities like light stretching or yoga.",
+                        notes: "Engage in activities like walking or stretching.",
                         image: "path/to/rest-day-image3.jpg"
                     },
                     /* Day 7 - Rest */
                     {
                         day: 7,
                         name: "Rest",
-                        notes: "Full rest day to aid in recovery.",
+                        notes: "Complete rest day.",
                         image: "path/to/rest-day-image4.jpg"
                     }
                 ]
             }
         ],
-
+    
         /* week-3 */
         week3: [
             {
@@ -729,18 +735,18 @@ const WeightGain = [
                         day: 1,
                         name: "Full Body",
                         exercises: [
-                            { name: "Push-Ups", sets: 4, reps: "25-30", notes: "Increase the number of reps or slow down the pace.", image: "path/to/push-ups-image.jpg" },
-                            { name: "Bodyweight Squats", sets: 4, reps: "30-35", notes: "Add jump squats or perform single-leg variations.", image: "path/to/bodyweight-squats-image.jpg" },
-                            { name: "Plank", sets: 4, time: "60-70 seconds", notes: "Hold for longer duration or perform advanced variations.", image: "path/to/plank-image.jpg" },
-                            { name: "Glute Bridges", sets: 4, reps: "30-35", notes: "Include single-leg variations and pause at the top.", image: "path/to/glute-bridges-image.jpg" },
-                            { name: "Superman", sets: 4, reps: "30-35", notes: "Increase hold time at the top for extra challenge.", image: "path/to/superman-image.jpg" }
+                            { name: "Push-Ups", sets: 4, reps: "18-20", notes: "Focus on proper form, keeping your body straight and core engaged.", image: "Exercise-gif/WG-Push-Up.gif" },
+                            { name: "Bodyweight Squats", sets: 4, reps: "20-25", notes: "Keep your feet shoulder-width apart and push through your heels.", image: "Exercise-gif/WG-bodyweight-lunges.gif" },
+                            { name: "Plank", sets: 4, time: "60 seconds", notes: "Maintain a straight line from head to heels, engaging your core.", image: "Exercise-gif/WF-plank.gif" },
+                            { name: "Glute Bridges", sets: 4, reps: "30-35", notes: "Squeeze your glutes at the top and hold for a second.", image: "Exercise-gif/WG-Glute-Bridge.gif" },
+                            { name: "Superman", sets: 4, reps: "20-25", notes: "Lift your arms and legs off the ground simultaneously, engaging your back muscles.", image: "Exercise-gif/WG-Superman.gif" }
                         ]
                     },
                     /* Day 2 - Rest/Active Recovery */
                     {
                         day: 2,
                         name: "Rest/Active Recovery",
-                        notes: "Participate in light activities like stretching or a gentle walk.",
+                        notes: "Include light stretching, yoga, or an easy walk to keep your body active.",
                         image: "path/to/rest-day-image.jpg"
                     },
                     /* Day 3 - Upper Body */
@@ -748,17 +754,17 @@ const WeightGain = [
                         day: 3,
                         name: "Upper Body",
                         exercises: [
-                            { name: "Incline Push-Ups", sets: 4, reps: "25-30", notes: "Decrease the incline to increase difficulty.", image: "path/to/incline-push-ups-image.jpg" },
-                            { name: "Tricep Dips", sets: 4, reps: "25-30", notes: "Increase the range of motion or add weights.", image: "path/to/tricep-dips-image.jpg" },
-                            { name: "Pike Push-Ups", sets: 4, reps: "20-25", notes: "Raise your hips higher or add a pause at the bottom.", image: "path/to/pike-push-ups-image.jpg" },
-                            { name: "Plank to Shoulder Tap", sets: 4, reps: "25-30 per side", notes: "Keep movements controlled and slow.", image: "path/to/plank-to-shoulder-tap-image.jpg" }
+                            { name: "Incline Push-Ups", sets: 4, reps: "18-20", notes: "Use a stable surface like a chair or couch for the incline.", image: "Exercise-gif/WG-Incline-Push-Up.gif" },
+                            { name: "Tricep Dips (using a chair)", sets: 4, reps: "18-20", notes: "Use a chair or edge of a couch to perform this exercise.", image: "Exercise-gif/WG_Dips-Between-Chairs.gif" },
+                            { name: "Plank to Shoulder Tap", sets: 4, reps: "18-20 taps per side", notes: "Keep your hips stable as you tap each shoulder.", image: "Exercise-gif/WG-Shoulder-Tap-Push-up.gif" },
+                            { name: "Pike Push-Ups", sets: 4, reps: "15-18", notes: "Focus on shoulders, maintaining a 90-degree angle at the hips.", image: "Exercise-gif/WG-Bench-Pike-Push-up.gif" }
                         ]
                     },
                     /* Day 4 - Rest/Active Recovery */
                     {
                         day: 4,
                         name: "Rest/Active Recovery",
-                        notes: "Engage in stretching or yoga to aid in recovery.",
+                        notes: "Engage in light stretching or yoga.",
                         image: "path/to/rest-day-image2.jpg"
                     },
                     /* Day 5 - Lower Body */
@@ -766,30 +772,30 @@ const WeightGain = [
                         day: 5,
                         name: "Lower Body",
                         exercises: [
-                            { name: "Lunges", sets: 4, reps: "25-30 per leg", notes: "Increase depth or add weights for extra challenge.", image: "path/to/lunges-image.jpg" },
-                            { name: "Step-Ups", sets: 4, reps: "25-30 per leg", notes: "Use a higher step or add weights for additional intensity.", image: "path/to/step-ups-image.jpg" },
-                            { name: "Wall Sit", sets: 4, time: "70-80 seconds", notes: "Increase duration or use additional weights.", image: "path/to/wall-sit-image.jpg" },
-                            { name: "Calf Raises", sets: 4, reps: "30-35", notes: "Perform on one leg or with added weights for more intensity.", image: "path/to/calf-raises-image.jpg" }
+                            { name: "Lunges", sets: 4, reps: "18-20 per leg", notes: "Keep your front knee over your ankle, not past your toes.", image: "Exercise-gif/WG-bodyweight-lunges.gif" },
+                            { name: "Wall Sit", sets: 4, time: "60 seconds", notes: "Hold the position as if you're sitting on an invisible chair.", image: "Exercise-gif/WG-Wall-Sit.webp" },
+                            { name: "Step-Ups (using a sturdy chair or step)", sets: 4, reps: "20 per leg", notes: "Use a sturdy chair or step.", image: "Exercise-gif/WG-weighted-step-up.gif " },
+                            { name: "Calf Raises", sets: 4, reps: "30-35", notes: "Raise up onto your toes and hold for a second before lowering.", image: "Exercise-gif/WG-Single-Leg-Calf-Raises.gif" }
                         ]
                     },
                     /* Day 6 - Rest/Active Recovery */
                     {
                         day: 6,
                         name: "Rest/Active Recovery",
-                        notes: "Engage in gentle activities like stretching or a light walk.",
+                        notes: "Engage in activities like walking or stretching.",
                         image: "path/to/rest-day-image3.jpg"
                     },
                     /* Day 7 - Rest */
                     {
                         day: 7,
                         name: "Rest",
-                        notes: "Full rest day for complete recovery.",
+                        notes: "Complete rest day.",
                         image: "path/to/rest-day-image4.jpg"
                     }
                 ]
             }
         ],
-
+    
         /* week-4 */
         week4: [
             {
@@ -799,18 +805,18 @@ const WeightGain = [
                         day: 1,
                         name: "Full Body",
                         exercises: [
-                            { name: "Push-Ups", sets: 4, reps: "30-35", notes: "Increase reps or slow down the pace for added challenge.", image: "path/to/push-ups-image.jpg" },
-                            { name: "Bodyweight Squats", sets: 4, reps: "35-40", notes: "Add jump squats or perform single-leg variations.", image: "path/to/bodyweight-squats-image.jpg" },
-                            { name: "Plank", sets: 4, time: "70-80 seconds", notes: "Hold for longer duration or perform advanced variations.", image: "path/to/plank-image.jpg" },
-                            { name: "Glute Bridges", sets: 4, reps: "35-40", notes: "Include single-leg variations and hold at the top.", image: "path/to/glute-bridges-image.jpg" },
-                            { name: "Superman", sets: 4, reps: "35-40", notes: "Increase hold time at the top for extra challenge.", image: "path/to/superman-image.jpg" }
+                            { name: "Push-Ups", sets: 4, reps: "20-25", notes: "Focus on proper form, keeping your body straight and core engaged.", image: "Exercise-gif/WG-Push-Up.gif" },
+                            { name: "Bodyweight Squats", sets: 4, reps: "25-30", notes: "Keep your feet shoulder-width apart and push through your heels.", image: "Exercise-gif/WG-bodyweight-lunges.gif" },
+                            { name: "Plank", sets: 4, time: "60-70 seconds", notes: "Maintain a straight line from head to heels, engaging your core.", image: "Exercise-gif/WF-plank.gif" },
+                            { name: "Glute Bridges", sets: 4, reps: "35-40", notes: "Squeeze your glutes at the top and hold for a second.", image: "Exercise-gif/WG-Glute-Bridge.gif" },
+                            { name: "Superman", sets: 4, reps: "25-30", notes: "Lift your arms and legs off the ground simultaneously, engaging your back muscles.", image: "Exercise-gif/WG-Superman.gif" }
                         ]
                     },
                     /* Day 2 - Rest/Active Recovery */
                     {
                         day: 2,
                         name: "Rest/Active Recovery",
-                        notes: "Engage in light stretching or a brisk walk.",
+                        notes: "Include light stretching, yoga, or an easy walk to keep your body active.",
                         image: "path/to/rest-day-image.jpg"
                     },
                     /* Day 3 - Upper Body */
@@ -818,17 +824,17 @@ const WeightGain = [
                         day: 3,
                         name: "Upper Body",
                         exercises: [
-                            { name: "Incline Push-Ups", sets: 4, reps: "30-35", notes: "Decrease the incline to increase difficulty.", image: "path/to/incline-push-ups-image.jpg" },
-                            { name: "Tricep Dips", sets: 4, reps: "30-35", notes: "Increase range of motion or add weights.", image: "path/to/tricep-dips-image.jpg" },
-                            { name: "Pike Push-Ups", sets: 4, reps: "25-30", notes: "Raise your hips higher or add a pause at the bottom.", image: "path/to/pike-push-ups-image.jpg" },
-                            { name: "Plank to Shoulder Tap", sets: 4, reps: "30-35 per side", notes: "Keep movements controlled and slow.", image: "path/to/plank-to-shoulder-tap-image.jpg" }
+                            { name: "Incline Push-Ups", sets: 4, reps: "20-25", notes: "Use a stable surface like a chair or couch for the incline.", image: "Exercise-gif/WG-Incline-Push-Up.gif" },
+                            { name: "Tricep Dips (using a chair)", sets: 4, reps: "20-25", notes: "Use a chair or edge of a couch to perform this exercise.", image: "Exercise-gif/WG_Dips-Between-Chairs.gif" },
+                            { name: "Plank to Shoulder Tap", sets: 4, reps: "20-25 taps per side", notes: "Keep your hips stable as you tap each shoulder.", image: "Exercise-gif/WG-Shoulder-Tap-Push-up.gif" },
+                            { name: "Pike Push-Ups", sets: 4, reps: "18-20", notes: "Focus on shoulders, maintaining a 90-degree angle at the hips.", image: "Exercise-gif/WG-Bench-Pike-Push-up.gif" }
                         ]
                     },
                     /* Day 4 - Rest/Active Recovery */
                     {
                         day: 4,
                         name: "Rest/Active Recovery",
-                        notes: "Focus on stretching or yoga for recovery.",
+                        notes: "Light stretching or yoga session is recommended.",
                         image: "path/to/rest-day-image2.jpg"
                     },
                     /* Day 5 - Lower Body */
@@ -836,31 +842,31 @@ const WeightGain = [
                         day: 5,
                         name: "Lower Body",
                         exercises: [
-                            { name: "Lunges", sets: 4, reps: "30-35 per leg", notes: "Increase depth or add weights for extra challenge.", image: "path/to/lunges-image.jpg" },
-                            { name: "Step-Ups", sets: 4, reps: "30-35 per leg", notes: "Use a higher step or add weights for more intensity.", image: "path/to/step-ups-image.jpg" },
-                            { name: "Wall Sit", sets: 4, time: "80-90 seconds", notes: "Increase duration or add weights for increased difficulty.", image: "path/to/wall-sit-image.jpg" },
-                            { name: "Calf Raises", sets: 4, reps: "35-40", notes: "Perform on one leg or with added weights for more intensity.", image: "path/to/calf-raises-image.jpg" }
+                            { name: "Lunges", sets: 4, reps: "20-25 per leg", notes: "Keep your front knee over your ankle, not past your toes.", image: "Exercise-gif/WG-bodyweight-lunges.gif" },
+                            { name: "Wall Sit", sets: 4, time: "70 seconds", notes: "Hold the position as if you're sitting on an invisible chair.", image: "Exercise-gif/WG-Wall-Sit.webp" },
+                            { name: "Step-Ups (using a sturdy chair or step)", sets: 4, reps: "25 per leg", notes: "Use a sturdy chair or step.", image: "Exercise-gif/WG-weighted-step-up.gif " },
+                            { name: "Calf Raises", sets: 4, reps: "35-40", notes: "Raise up onto your toes and hold for a second before lowering.", image: "Exercise-gif/WG-Single-Leg-Calf-Raises.gif" }
                         ]
                     },
                     /* Day 6 - Rest/Active Recovery */
                     {
                         day: 6,
                         name: "Rest/Active Recovery",
-                        notes: "Engage in gentle activities like light stretching or a walk.",
+                        notes: "Engage in activities like walking or stretching.",
                         image: "path/to/rest-day-image3.jpg"
                     },
                     /* Day 7 - Rest */
                     {
                         day: 7,
                         name: "Rest",
-                        notes: "Full rest day to allow for complete recovery.",
+                        notes: "Complete rest day.",
                         image: "path/to/rest-day-image4.jpg"
                     }
                 ]
             }
         ]
-
     }
+    
 ]
 
 
@@ -876,31 +882,31 @@ const WeightLoss = [
                         day: 1,
                         name: "Full Body Workout",
                         exercises: [
-                            { name: "Jumping Jacks", time: "2 minutes" },
-                            { name: "Bodyweight Squats", sets: 3, reps: 12 },
-                            { name: "Push-Ups", sets: 3, reps: 8 },
-                            { name: "Glute Bridges", sets: 3, reps: 15 },
-                            { name: "Plank", sets: 3, time: "20 seconds" },
-                            { name: "Mountain Climbers", sets: 3, time: "30 seconds" }
+                            { name: "Jumping Jacks", time: "2 minutes" ,image: "Exercise-gif/WL-Jumping-jack.gif"},
+                            { name: "Bodyweight Squats", sets: 3, reps: 12 ,image: "Exercise-gif/WG-bodyweight-squat.gif"},
+                            { name: "Push-Ups", sets: 3, reps: 8 ,image: "Exercise-gif/WG-Push-Up.gif"},
+                            { name: "Glute Bridges", sets: 3, reps: 15 ,image: "Exercise-gif/WG-Glute-Bridge.gif"},
+                            { name: "Plank", sets: 3, time: "20 seconds" ,image: "Exercise-gif/WF-plank.gif"},
+                            { name: "Mountain Climbers", sets: 3, time: "30 seconds" ,image: "Exercise-gif/WL-Mountain-Climber.gif"}
                         ]
                     },
                     {
                         day: 2,
                         name: "Cardio",
                         exercises: [
-                            { name: "Marching in Place", time: "2 minutes" },
-                            { name: "Brisk Walking or Jogging in Place", time: "30 minutes" }
+                            { name: "Marching in Place", time: "2 minutes" ,image: "Exercise-gif/WL-weight-Skater.gif"},
+                            { name: "Brisk Walking or Jogging in Place", time: "30 minutes",image: "Exercise-gif/WL-Butt-Kicks.gif"}
                         ]
                     },
                     {
                         day: 3,
                         name: "Strength Training",
                         exercises: [
-                            { name: "Arm Circles", time: "1 minute" },
-                            { name: "Lunges", sets: 3, reps: 10, perLeg: true },
-                            { name: "Dumbbell Rows", sets: 3, reps: 12, perArm: true },
-                            { name: "Tricep Dips", sets: 3, reps: 10 },
-                            { name: "Side Plank", sets: 3, time: "15 seconds", perSide: true }
+                            { name: "Arm Circles", time: "1 minute" ,image: "Exercise-gif/WL-Arm-Circles.gif"},
+                            { name: "Lunges", sets: 3, reps: 10, perLeg: true ,image: "Exercise-gif/WG-bodyweight-lunges.gif"},
+                            { name: "Dumbbell Rows", sets: 3, reps: 12, perArm: true ,image: "Exercise-gif/WL-Dumbbell-Row.gif"},
+                            { name: "Tricep Dips", sets: 3, reps: 10 ,image: "Exercise-gif/WL-Triceps-Dips.gif"},
+                            { name: "Side Plank", sets: 3, time: "15 seconds", perSide: true ,image: "Exercise-gif/WL-Side-Plank.gif"}
                         ]
                     },
                     {
@@ -914,20 +920,20 @@ const WeightLoss = [
                         day: 5,
                         name: "Cardio",
                         exercises: [
-                            { name: "High Knees", time: "1 minute" },
-                            { name: "Jump Rope or Invisible Jump Rope", time: "20 minutes" },
-                            { name: "Brisk Walking or Jogging", time: "10 minutes" }
+                            { name: "High Knees", time: "1 minute" ,image: "Exercise-gif/WL-Elbow-To-Knee.gif"},
+                            { name: "Jump Rope or Invisible Jump Rope", time: "20 minutes" ,image: "Exercise-gif/WL-Jump-Rope.gif"},
+                            { name: "Brisk Walking or Jogging", time: "10 minutes" ,image: "Exercise-gif/WL-Briskly-Walking.gif"}
                         ]
                     },
                     {
                         day: 6,
                         name: "Full Body Workout",
                         exercises: [
-                            { name: "Dynamic Stretches", time: "2 minutes" },
-                            { name: "Burpees", sets: 3, reps: 10 },
-                            { name: "Bicycle Crunches", sets: 3, reps: 15, perSide: true },
-                            { name: "Step-Ups", sets: 3, reps: 12, perLeg: true },
-                            { name: "Russian Twists", sets: 3, reps: 20, perSide: true }
+                            { name: "Dynamic Stretches", time: "2 minutes" ,image: "Exercise-gif/WL-Dynamic-Chest-Stretch.gif"},
+                            { name: "Burpees", sets: 3, reps: 10 ,image: "Exercise-gif/WL-burpees.gif"},
+                            { name: "Bicycle Crunches", sets: 3, reps: 15, perSide: true ,image: "Exercise-gif/WL-Bicycle-Crunch.gif"},
+                            { name: "Step-Ups", sets: 3, reps: 12, perLeg: true ,image: "Exercise-gif/WG-weighted-step-up.gif"},
+                            { name: "Russian Twists", sets: 3, reps: 20, perSide: true ,image: "Exercise-gif/WL-Crunch.gif"}
                         ]
                     },
                     {
@@ -946,31 +952,31 @@ const WeightLoss = [
                         day: 1,
                         name: "Full Body Workout",
                         exercises: [
-                            { name: "Jump Rope or Invisible Jump Rope", time: "2 minutes" },
-                            { name: "Bodyweight Squats", sets: 3, reps: 15 },
-                            { name: "Push-Ups", sets: 3, reps: 10 },
-                            { name: "Glute Bridges", sets: 3, reps: 20 },
-                            { name: "Plank", sets: 3, time: "30 seconds" },
-                            { name: "Mountain Climbers", sets: 3, time: "45 seconds" }
+                            { name: "Jumping Jacks", time: "2 minutes" ,image: "Exercise-gif/WL-Jumping-jack.gif"},
+                            { name: "Bodyweight Squats", sets: 4, reps: 15 ,image: "Exercise-gif/WG-bodyweight-squat.gif"},
+                            { name: "Push-Ups", sets: 4, reps: 10 ,image: "Exercise-gif/WG-Push-Up.gif"},
+                            { name: "Glute Bridges", sets: 4, reps: 20 ,image: "Exercise-gif/WG-Glute-Bridge.gif"},
+                            { name: "Plank", sets: 4, time: "30 seconds" ,image: "Exercise-gif/WF-plank.gif"},
+                            { name: "Mountain Climbers", sets: 4, time: "45 seconds" ,image: "Exercise-gif/WL-Mountain-Climber.gif"}
                         ]
                     },
                     {
                         day: 2,
                         name: "Cardio",
                         exercises: [
-                            { name: "Marching in Place", time: "2 minutes" },
-                            { name: "Brisk Walking or Jogging in Place", time: "35 minutes" }
+                            { name: "Marching in Place", time: "2 minutes" ,image: "Exercise-gif/WL-weight-Skater.gif"},
+                            { name: "Brisk Walking or Jogging in Place", time: "35 minutes",image: "Exercise-gif/WL-Butt-Kicks.gif"}
                         ]
                     },
                     {
                         day: 3,
                         name: "Strength Training",
                         exercises: [
-                            { name: "Arm Circles", time: "1 minute" },
-                            { name: "Lunges", sets: 3, reps: 12, perLeg: true },
-                            { name: "Dumbbell Rows", sets: 3, reps: 15, perArm: true },
-                            { name: "Tricep Dips", sets: 3, reps: 12 },
-                            { name: "Side Plank", sets: 3, time: "20 seconds", perSide: true }
+                            { name: "Arm Circles", time: "1 minute" ,image: "Exercise-gif/WL-Arm-Circles.gif"},
+                            { name: "Lunges", sets: 4, reps: 12, perLeg: true ,image: "Exercise-gif/WG-bodyweight-lunges.gif"},
+                            { name: "Dumbbell Rows", sets: 4, reps: 15, perArm: true ,image: "Exercise-gif/WL-Dumbbell-Row.gif"},
+                            { name: "Tricep Dips", sets: 4, reps: 12 ,image: "Exercise-gif/WL-Triceps-Dips.gif"},
+                            { name: "Side Plank", sets: 4, time: "20 seconds", perSide: true ,image: "Exercise-gif/WL-Side-Plank.gif"}
                         ]
                     },
                     {
@@ -984,20 +990,20 @@ const WeightLoss = [
                         day: 5,
                         name: "Cardio",
                         exercises: [
-                            { name: "High Knees", time: "1 minute" },
-                            { name: "Jump Rope or Invisible Jump Rope", time: "25 minutes" },
-                            { name: "Brisk Walking or Jogging", time: "15 minutes" }
+                            { name: "High Knees", time: "1 minute" ,image: "Exercise-gif/WL-Elbow-To-Knee.gif"},
+                            { name: "Jump Rope or Invisible Jump Rope", time: "25 minutes" ,image: "Exercise-gif/WL-Jump-Rope.gif"},
+                            { name: "Brisk Walking or Jogging", time: "15 minutes" ,image: "Exercise-gif/WL-Briskly-Walking.gif"}
                         ]
                     },
                     {
                         day: 6,
                         name: "Full Body Workout",
                         exercises: [
-                            { name: "Dynamic Stretches", time: "2 minutes" },
-                            { name: "Burpees", sets: 3, reps: 12 },
-                            { name: "Bicycle Crunches", sets: 3, reps: 20, perSide: true },
-                            { name: "Step-Ups", sets: 3, reps: 15, perLeg: true },
-                            { name: "Russian Twists", sets: 3, reps: 25, perSide: true }
+                            { name: "Dynamic Stretches", time: "2 minutes" ,image: "Exercise-gif/WL-Dynamic-Chest-Stretch.gif"},
+                            { name: "Burpees", sets: 4, reps: 12 ,image: "Exercise-gif/WL-burpees.gif"},
+                            { name: "Bicycle Crunches", sets: 4, reps: 20, perSide: true ,image: "Exercise-gif/WL-Bicycle-Crunch.gif"},
+                            { name: "Step-Ups", sets: 4, reps: 15, perLeg: true ,image: "Exercise-gif/WG-weighted-step-up.gif"},
+                            { name: "Russian Twists", sets: 4, reps: 25, perSide: true ,image: "Exercise-gif/WL-Crunch.gif"}
                         ]
                     },
                     {
@@ -1005,8 +1011,9 @@ const WeightLoss = [
                         name: "Rest"
                     }
                 ]
-            },
+            }
         ],
+        
 
         /* week-3 */
         week3: [
@@ -1016,31 +1023,31 @@ const WeightLoss = [
                         day: 1,
                         name: "Full Body Workout",
                         exercises: [
-                            { name: "Jump Rope or Invisible Jump Rope", time: "2 minutes" },
-                            { name: "Bodyweight Squats", sets: 3, reps: 20 },
-                            { name: "Push-Ups", sets: 3, reps: 12 },
-                            { name: "Glute Bridges", sets: 3, reps: 25 },
-                            { name: "Plank", sets: 3, time: "40 seconds" },
-                            { name: "Mountain Climbers", sets: 3, time: "1 minute" }
+                            { name: "Jumping Jacks", time: "2.5 minutes" ,image: "Exercise-gif/WL-Jumping-jack.gif"},
+                            { name: "Bodyweight Squats", sets: 4, reps: 20 ,image: "Exercise-gif/WG-bodyweight-squat.gif"},
+                            { name: "Push-Ups", sets: 4, reps: 12 ,image: "Exercise-gif/WG-Push-Up.gif"},
+                            { name: "Glute Bridges", sets: 4, reps: 25 ,image: "Exercise-gif/WG-Glute-Bridge.gif"},
+                            { name: "Plank", sets: 4, time: "40 seconds" ,image: "Exercise-gif/WF-plank.gif"},
+                            { name: "Mountain Climbers", sets: 4, time: "50 seconds" ,image: "Exercise-gif/WL-Mountain-Climber.gif"}
                         ]
                     },
                     {
                         day: 2,
                         name: "Cardio",
                         exercises: [
-                            { name: "Marching in Place", time: "2 minutes" },
-                            { name: "Brisk Walking or Jogging in Place", time: "40 minutes" }
+                            { name: "Marching in Place", time: "2.5 minutes" ,image: "Exercise-gif/WL-weight-Skater.gif"},
+                            { name: "Brisk Walking or Jogging in Place", time: "40 minutes",image: "Exercise-gif/WL-Butt-Kicks.gif"}
                         ]
                     },
                     {
                         day: 3,
                         name: "Strength Training",
                         exercises: [
-                            { name: "Arm Circles", time: "1 minute" },
-                            { name: "Lunges", sets: 3, reps: 15, perLeg: true },
-                            { name: "Dumbbell Rows", sets: 3, reps: 20, perArm: true },
-                            { name: "Tricep Dips", sets: 3, reps: 15 },
-                            { name: "Side Plank", sets: 3, time: "30 seconds", perSide: true }
+                            { name: "Arm Circles", time: "1.5 minutes" ,image: "Exercise-gif/WL-Arm-Circles.gif"},
+                            { name: "Lunges", sets: 4, reps: 15, perLeg: true ,image: "Exercise-gif/WG-bodyweight-lunges.gif"},
+                            { name: "Dumbbell Rows", sets: 4, reps: 18, perArm: true ,image: "Exercise-gif/WL-Dumbbell-Row.gif"},
+                            { name: "Tricep Dips", sets: 4, reps: 15 ,image: "Exercise-gif/WL-Triceps-Dips.gif"},
+                            { name: "Side Plank", sets: 4, time: "25 seconds", perSide: true ,image: "Exercise-gif/WL-Side-Plank.gif"}
                         ]
                     },
                     {
@@ -1054,20 +1061,20 @@ const WeightLoss = [
                         day: 5,
                         name: "Cardio",
                         exercises: [
-                            { name: "High Knees", time: "1 minute" },
-                            { name: "Jump Rope or Invisible Jump Rope", time: "30 minutes" },
-                            { name: "Brisk Walking or Jogging", time: "20 minutes" }
+                            { name: "High Knees", time: "1.5 minutes" ,image: "Exercise-gif/WL-Elbow-To-Knee.gif"},
+                            { name: "Jump Rope or Invisible Jump Rope", time: "30 minutes" ,image: "Exercise-gif/WL-Jump-Rope.gif"},
+                            { name: "Brisk Walking or Jogging", time: "20 minutes" ,image: "Exercise-gif/WL-Briskly-Walking.gif"}
                         ]
                     },
                     {
                         day: 6,
                         name: "Full Body Workout",
                         exercises: [
-                            { name: "Dynamic Stretches", time: "2 minutes" },
-                            { name: "Burpees", sets: 3, reps: 15 },
-                            { name: "Bicycle Crunches", sets: 3, reps: 25, perSide: true },
-                            { name: "Step-Ups", sets: 3, reps: 20, perLeg: true },
-                            { name: "Russian Twists", sets: 3, reps: 30, perSide: true }
+                            { name: "Dynamic Stretches", time: "2.5 minutes" ,image: "Exercise-gif/WL-Dynamic-Chest-Stretch.gif"},
+                            { name: "Burpees", sets: 4, reps: 15 ,image: "Exercise-gif/WL-burpees.gif"},
+                            { name: "Bicycle Crunches", sets: 4, reps: 25, perSide: true ,image: "Exercise-gif/WL-Bicycle-Crunch.gif"},
+                            { name: "Step-Ups", sets: 4, reps: 20, perLeg: true ,image: "Exercise-gif/WG-weighted-step-up.gif"},
+                            { name: "Russian Twists", sets: 4, reps: 30, perSide: true ,image: "Exercise-gif/WL-Crunch.gif"}
                         ]
                     },
                     {
@@ -1075,7 +1082,7 @@ const WeightLoss = [
                         name: "Rest"
                     }
                 ]
-            },
+            }
         ],
 
         /* week-4 */
@@ -1086,31 +1093,31 @@ const WeightLoss = [
                         day: 1,
                         name: "Full Body Workout",
                         exercises: [
-                            { name: "Jump Rope or Invisible Jump Rope", time: "2 minutes" },
-                            { name: "Bodyweight Squats", sets: 3, reps: 25 },
-                            { name: "Push-Ups", sets: 3, reps: 15 },
-                            { name: "Glute Bridges", sets: 3, reps: 30 },
-                            { name: "Plank", sets: 3, time: "50 seconds" },
-                            { name: "Mountain Climbers", sets: 3, time: "1 minute 15 seconds" }
+                            { name: "Jumping Jacks", time: "3 minutes" ,image: "Exercise-gif/WL-Jumping-jack.gif"},
+                            { name: "Bodyweight Squats", sets: 4, reps: 25 ,image: "Exercise-gif/WG-bodyweight-squat.gif"},
+                            { name: "Push-Ups", sets: 4, reps: 15 ,image: "Exercise-gif/WG-Push-Up.gif"},
+                            { name: "Glute Bridges", sets: 4, reps: 30 ,image: "Exercise-gif/WG-Glute-Bridge.gif"},
+                            { name: "Plank", sets: 4, time: "45 seconds" ,image: "Exercise-gif/WF-plank.gif"},
+                            { name: "Mountain Climbers", sets: 4, time: "1 minute" ,image: "Exercise-gif/WL-Mountain-Climber.gif"}
                         ]
                     },
                     {
                         day: 2,
                         name: "Cardio",
                         exercises: [
-                            { name: "Marching in Place", time: "2 minutes" },
-                            { name: "Brisk Walking or Jogging in Place", time: "45 minutes" }
+                            { name: "Marching in Place", time: "3 minutes" ,image: "Exercise-gif/WL-weight-Skater.gif"},
+                            { name: "Brisk Walking or Jogging in Place", time: "45 minutes",image: "Exercise-gif/WL-Butt-Kicks.gif"}
                         ]
                     },
                     {
                         day: 3,
                         name: "Strength Training",
                         exercises: [
-                            { name: "Arm Circles", time: "1 minute" },
-                            { name: "Lunges", sets: 3, reps: 20, perLeg: true },
-                            { name: "Dumbbell Rows", sets: 3, reps: 25, perArm: true },
-                            { name: "Tricep Dips", sets: 3, reps: 20 },
-                            { name: "Side Plank", sets: 3, time: "40 seconds", perSide: true }
+                            { name: "Arm Circles", time: "2 minutes" ,image: "Exercise-gif/WL-Arm-Circles.gif"},
+                            { name: "Lunges", sets: 4, reps: 20, perLeg: true ,image: "Exercise-gif/WG-bodyweight-lunges.gif"},
+                            { name: "Dumbbell Rows", sets: 4, reps: 20, perArm: true ,image: "Exercise-gif/WL-Dumbbell-Row.gif"},
+                            { name: "Tricep Dips", sets: 4, reps: 20 ,image: "Exercise-gif/WL-Triceps-Dips.gif"},
+                            { name: "Side Plank", sets: 4, time: "30 seconds", perSide: true ,image: "Exercise-gif/WL-Side-Plank.gif"}
                         ]
                     },
                     {
@@ -1124,20 +1131,20 @@ const WeightLoss = [
                         day: 5,
                         name: "Cardio",
                         exercises: [
-                            { name: "High Knees", time: "1 minute" },
-                            { name: "Jump Rope or Invisible Jump Rope", time: "35 minutes" },
-                            { name: "Brisk Walking or Jogging", time: "25 minutes" }
+                            { name: "High Knees", time: "2 minutes" ,image: "Exercise-gif/WL-Elbow-To-Knee.gif"},
+                            { name: "Jump Rope or Invisible Jump Rope", time: "35 minutes" ,image: "Exercise-gif/WL-Jump-Rope.gif"},
+                            { name: "Brisk Walking or Jogging", time: "25 minutes" ,image: "Exercise-gif/WL-Briskly-Walking.gif"}
                         ]
                     },
                     {
                         day: 6,
                         name: "Full Body Workout",
                         exercises: [
-                            { name: "Dynamic Stretches", time: "2 minutes" },
-                            { name: "Burpees", sets: 3, reps: 20 },
-                            { name: "Bicycle Crunches", sets: 3, reps: 30, perSide: true },
-                            { name: "Step-Ups", sets: 3, reps: 25, perLeg: true },
-                            { name: "Russian Twists", sets: 3, reps: 35, perSide: true }
+                            { name: "Dynamic Stretches", time: "3 minutes" ,image: "Exercise-gif/WL-Dynamic-Chest-Stretch.gif"},
+                            { name: "Burpees", sets: 4, reps: 20 ,image: "Exercise-gif/WL-burpees.gif"},
+                            { name: "Bicycle Crunches", sets: 4, reps: 30, perSide: true ,image: "Exercise-gif/WL-Bicycle-Crunch.gif"},
+                            { name: "Step-Ups", sets: 4, reps: 25, perLeg: true ,image: "Exercise-gif/WG-weighted-step-up.gif"},
+                            { name: "Russian Twists", sets: 4, reps: 35, perSide: true ,image: "Exercise-gif/WL-Crunch.gif"}
                         ]
                     },
                     {
@@ -1145,8 +1152,9 @@ const WeightLoss = [
                         name: "Rest"
                     }
                 ]
-            },
+            }
         ]
+        
     },
 
     /* intermediate exercise */
@@ -1160,31 +1168,101 @@ const WeightLoss = [
                         day: 1,
                         name: "Full Body Workout",
                         exercises: [
-                            { name: "Jumping Jacks", time: "3 minutes" },
-                            { name: "Bodyweight Squats", sets: 4, reps: 15 },
-                            { name: "Push-Ups", sets: 4, reps: 10 },
-                            { name: "Glute Bridges", sets: 4, reps: 20 },
-                            { name: "Plank", sets: 4, time: "30 seconds" },
-                            { name: "Mountain Climbers", sets: 4, time: "45 seconds" }
+                            { name: "Jumping Jacks", time: "2 minutes" ,image: "Exercise-gif/WL-Jumping-jack.gif"},
+                            { name: "Bodyweight Squats", sets: 3, reps: 12 ,image: "Exercise-gif/WG-bodyweight-squat.gif"},
+                            { name: "Push-Ups", sets: 3, reps: 8 ,image: "Exercise-gif/WG-Push-Up.gif"},
+                            { name: "Glute Bridges", sets: 3, reps: 15 ,image: "Exercise-gif/WG-Glute-Bridge.gif"},
+                            { name: "Plank", sets: 3, time: "20 seconds" ,image: "Exercise-gif/WF-plank.gif"},
+                            { name: "Mountain Climbers", sets: 3, time: "30 seconds" ,image: "Exercise-gif/WL-Mountain-Climber.gif"}
                         ]
                     },
                     {
                         day: 2,
                         name: "Cardio",
                         exercises: [
-                            { name: "Marching in Place", time: "2 minutes" },
-                            { name: "Brisk Walking or Jogging in Place", time: "35 minutes" }
+                            { name: "Marching in Place", time: "2 minutes" ,image: "Exercise-gif/WL-weight-Skater.gif"},
+                            { name: "Brisk Walking or Jogging in Place", time: "30 minutes",image: "Exercise-gif/WL-Butt-Kicks.gif"}
                         ]
                     },
                     {
                         day: 3,
                         name: "Strength Training",
                         exercises: [
-                            { name: "Arm Circles", time: "1 minute" },
-                            { name: "Lunges", sets: 4, reps: 12, perLeg: true },
-                            { name: "Dumbbell Rows", sets: 4, reps: 15, perArm: true },
-                            { name: "Tricep Dips", sets: 4, reps: 12 },
-                            { name: "Side Plank", sets: 4, time: "20 seconds", perSide: true }
+                            { name: "Arm Circles", time: "1 minute" ,image: "Exercise-gif/WL-Arm-Circles.gif"},
+                            { name: "Lunges", sets: 3, reps: 10, perLeg: true ,image: "Exercise-gif/WG-bodyweight-lunges.gif"},
+                            { name: "Dumbbell Rows", sets: 3, reps: 12, perArm: true ,image: "Exercise-gif/WL-Dumbbell-Row.gif"},
+                            { name: "Tricep Dips", sets: 3, reps: 10 ,image: "Exercise-gif/WL-Triceps-Dips.gif"},
+                            { name: "Side Plank", sets: 3, time: "15 seconds", perSide: true ,image: "Exercise-gif/WL-Side-Plank.gif"}
+                        ]
+                    },
+                    {
+                        day: 4,
+                        name: "Rest/Active Recovery",
+                        exercises: [
+                            { name: "Gentle Yoga or Stretching", time: "20 minutes" }
+                        ]
+                    },
+                    {
+                        day: 5,
+                        name: "Cardio",
+                        exercises: [
+                            { name: "High Knees", time: "1 minute" ,image: "Exercise-gif/WL-Elbow-To-Knee.gif"},
+                            { name: "Jump Rope or Invisible Jump Rope", time: "20 minutes" ,image: "Exercise-gif/WL-Jump-Rope.gif"},
+                            { name: "Brisk Walking or Jogging", time: "10 minutes" ,image: "Exercise-gif/WL-Briskly-Walking.gif"}
+                        ]
+                    },
+                    {
+                        day: 6,
+                        name: "Full Body Workout",
+                        exercises: [
+                            { name: "Dynamic Stretches", time: "2 minutes" ,image: "Exercise-gif/WL-Dynamic-Chest-Stretch.gif"},
+                            { name: "Burpees", sets: 3, reps: 10 ,image: "Exercise-gif/WL-burpees.gif"},
+                            { name: "Bicycle Crunches", sets: 3, reps: 15, perSide: true ,image: "Exercise-gif/WL-Bicycle-Crunch.gif"},
+                            { name: "Step-Ups", sets: 3, reps: 12, perLeg: true ,image: "Exercise-gif/WG-weighted-step-up.gif"},
+                            { name: "Russian Twists", sets: 3, reps: 20, perSide: true ,image: "Exercise-gif/WL-Crunch.gif"}
+                        ]
+                    },
+                    {
+                        day: 7,
+                        name: "Rest"
+                    }
+                ]
+            },
+        ],
+
+        /* week-2 */
+        week2: [
+            {
+                Days: [
+                    {
+                        day: 1,
+                        name: "Full Body Workout",
+                        exercises: [
+                            { name: "Jumping Jacks", time: "2 minutes" ,image: "Exercise-gif/WL-Jumping-jack.gif"},
+                            { name: "Bodyweight Squats", sets: 4, reps: 15 ,image: "Exercise-gif/WG-bodyweight-squat.gif"},
+                            { name: "Push-Ups", sets: 4, reps: 10 ,image: "Exercise-gif/WG-Push-Up.gif"},
+                            { name: "Glute Bridges", sets: 4, reps: 20 ,image: "Exercise-gif/WG-Glute-Bridge.gif"},
+                            { name: "Plank", sets: 4, time: "30 seconds" ,image: "Exercise-gif/WF-plank.gif"},
+                            { name: "Mountain Climbers", sets: 4, time: "45 seconds" ,image: "Exercise-gif/WL-Mountain-Climber.gif"}
+                        ]
+                    },
+                    {
+                        day: 2,
+                        name: "Cardio",
+                        exercises: [
+                            { name: "Marching in Place", time: "2 minutes" ,image: "Exercise-gif/WL-weight-Skater.gif"},
+                            { name: "Brisk Walking or Jogging in Place", time: "35 minutes",image: "Exercise-gif/WL-Butt-Kicks.gif"}
+                        ]
+                    },
+                    {
+                        day: 3,
+                        name: "Strength Training",
+                        exercises: [
+                            { name: "Arm Circles", time: "1 minute" ,image: "Exercise-gif/WL-Arm-Circles.gif"},
+                            { name: "Lunges", sets: 4, reps: 12, perLeg: true ,image: "Exercise-gif/WG-bodyweight-lunges.gif"},
+                            { name: "Dumbbell Rows", sets: 4, reps: 15, perArm: true ,image: "Exercise-gif/WL-Dumbbell-Row.gif"},
+                            { name: "Tricep Dips", sets: 4, reps: 12 ,image: "Exercise-gif/WL-Triceps-Dips.gif"},
+                            { name: "Side Plank", sets: 4, time: "20 seconds", perSide: true ,image: "Exercise-gif/WL-Side-Plank.gif"}
                         ]
                     },
                     {
@@ -1198,20 +1276,20 @@ const WeightLoss = [
                         day: 5,
                         name: "Cardio",
                         exercises: [
-                            { name: "High Knees", time: "1 minute" },
-                            { name: "Jump Rope or Invisible Jump Rope", time: "25 minutes" },
-                            { name: "Brisk Walking or Jogging", time: "15 minutes" }
+                            { name: "High Knees", time: "1 minute" ,image: "Exercise-gif/WL-Elbow-To-Knee.gif"},
+                            { name: "Jump Rope or Invisible Jump Rope", time: "25 minutes" ,image: "Exercise-gif/WL-Jump-Rope.gif"},
+                            { name: "Brisk Walking or Jogging", time: "15 minutes" ,image: "Exercise-gif/WL-Briskly-Walking.gif"}
                         ]
                     },
                     {
                         day: 6,
                         name: "Full Body Workout",
                         exercises: [
-                            { name: "Dynamic Stretches", time: "3 minutes" },
-                            { name: "Burpees", sets: 4, reps: 12 },
-                            { name: "Bicycle Crunches", sets: 4, reps: 20, perSide: true },
-                            { name: "Step-Ups", sets: 4, reps: 15, perLeg: true },
-                            { name: "Russian Twists", sets: 4, reps: 25, perSide: true }
+                            { name: "Dynamic Stretches", time: "2 minutes" ,image: "Exercise-gif/WL-Dynamic-Chest-Stretch.gif"},
+                            { name: "Burpees", sets: 4, reps: 12 ,image: "Exercise-gif/WL-burpees.gif"},
+                            { name: "Bicycle Crunches", sets: 4, reps: 20, perSide: true ,image: "Exercise-gif/WL-Bicycle-Crunch.gif"},
+                            { name: "Step-Ups", sets: 4, reps: 15, perLeg: true ,image: "Exercise-gif/WG-weighted-step-up.gif"},
+                            { name: "Russian Twists", sets: 4, reps: 25, perSide: true ,image: "Exercise-gif/WL-Crunch.gif"}
                         ]
                     },
                     {
@@ -1219,42 +1297,43 @@ const WeightLoss = [
                         name: "Rest"
                     }
                 ]
-            },
+            }
         ],
+        
 
-        /* week-2 */
-        week2: [
+        /* week-3 */
+        week3: [
             {
                 Days: [
                     {
                         day: 1,
                         name: "Full Body Workout",
                         exercises: [
-                            { name: "Jump Rope or Invisible Jump Rope", time: "3 minutes" },
-                            { name: "Bodyweight Squats", sets: 4, reps: 18 },
-                            { name: "Push-Ups", sets: 4, reps: 12 },
-                            { name: "Glute Bridges", sets: 4, reps: 25 },
-                            { name: "Plank", sets: 4, time: "40 seconds" },
-                            { name: "Mountain Climbers", sets: 4, time: "1 minute" }
+                            { name: "Jumping Jacks", time: "2.5 minutes" ,image: "Exercise-gif/WL-Jumping-jack.gif"},
+                            { name: "Bodyweight Squats", sets: 4, reps: 20 ,image: "Exercise-gif/WG-bodyweight-squat.gif"},
+                            { name: "Push-Ups", sets: 4, reps: 12 ,image: "Exercise-gif/WG-Push-Up.gif"},
+                            { name: "Glute Bridges", sets: 4, reps: 25 ,image: "Exercise-gif/WG-Glute-Bridge.gif"},
+                            { name: "Plank", sets: 4, time: "40 seconds" ,image: "Exercise-gif/WF-plank.gif"},
+                            { name: "Mountain Climbers", sets: 4, time: "50 seconds" ,image: "Exercise-gif/WL-Mountain-Climber.gif"}
                         ]
                     },
                     {
                         day: 2,
                         name: "Cardio",
                         exercises: [
-                            { name: "Marching in Place", time: "2 minutes" },
-                            { name: "Brisk Walking or Jogging in Place", time: "40 minutes" }
+                            { name: "Marching in Place", time: "2.5 minutes" ,image: "Exercise-gif/WL-weight-Skater.gif"},
+                            { name: "Brisk Walking or Jogging in Place", time: "40 minutes",image: "Exercise-gif/WL-Butt-Kicks.gif"}
                         ]
                     },
                     {
                         day: 3,
                         name: "Strength Training",
                         exercises: [
-                            { name: "Arm Circles", time: "1 minute" },
-                            { name: "Lunges", sets: 4, reps: 15, perLeg: true },
-                            { name: "Dumbbell Rows", sets: 4, reps: 18, perArm: true },
-                            { name: "Tricep Dips", sets: 4, reps: 15 },
-                            { name: "Side Plank", sets: 4, time: "25 seconds", perSide: true }
+                            { name: "Arm Circles", time: "1.5 minutes" ,image: "Exercise-gif/WL-Arm-Circles.gif"},
+                            { name: "Lunges", sets: 4, reps: 15, perLeg: true ,image: "Exercise-gif/WG-bodyweight-lunges.gif"},
+                            { name: "Dumbbell Rows", sets: 4, reps: 18, perArm: true ,image: "Exercise-gif/WL-Dumbbell-Row.gif"},
+                            { name: "Tricep Dips", sets: 4, reps: 15 ,image: "Exercise-gif/WL-Triceps-Dips.gif"},
+                            { name: "Side Plank", sets: 4, time: "25 seconds", perSide: true ,image: "Exercise-gif/WL-Side-Plank.gif"}
                         ]
                     },
                     {
@@ -1268,20 +1347,20 @@ const WeightLoss = [
                         day: 5,
                         name: "Cardio",
                         exercises: [
-                            { name: "High Knees", time: "1 minute" },
-                            { name: "Jump Rope or Invisible Jump Rope", time: "30 minutes" },
-                            { name: "Brisk Walking or Jogging", time: "20 minutes" }
+                            { name: "High Knees", time: "1.5 minutes" ,image: "Exercise-gif/WL-Elbow-To-Knee.gif"},
+                            { name: "Jump Rope or Invisible Jump Rope", time: "30 minutes" ,image: "Exercise-gif/WL-Jump-Rope.gif"},
+                            { name: "Brisk Walking or Jogging", time: "20 minutes" ,image: "Exercise-gif/WL-Briskly-Walking.gif"}
                         ]
                     },
                     {
                         day: 6,
                         name: "Full Body Workout",
                         exercises: [
-                            { name: "Dynamic Stretches", time: "3 minutes" },
-                            { name: "Burpees", sets: 4, reps: 15 },
-                            { name: "Bicycle Crunches", sets: 4, reps: 25, perSide: true },
-                            { name: "Step-Ups", sets: 4, reps: 18, perLeg: true },
-                            { name: "Russian Twists", sets: 4, reps: 30, perSide: true }
+                            { name: "Dynamic Stretches", time: "2.5 minutes" ,image: "Exercise-gif/WL-Dynamic-Chest-Stretch.gif"},
+                            { name: "Burpees", sets: 4, reps: 15 ,image: "Exercise-gif/WL-burpees.gif"},
+                            { name: "Bicycle Crunches", sets: 4, reps: 25, perSide: true ,image: "Exercise-gif/WL-Bicycle-Crunch.gif"},
+                            { name: "Step-Ups", sets: 4, reps: 20, perLeg: true ,image: "Exercise-gif/WG-weighted-step-up.gif"},
+                            { name: "Russian Twists", sets: 4, reps: 30, perSide: true ,image: "Exercise-gif/WL-Crunch.gif"}
                         ]
                     },
                     {
@@ -1289,42 +1368,42 @@ const WeightLoss = [
                         name: "Rest"
                     }
                 ]
-            },
+            }
         ],
 
-        /* week-3 */
-        week3: [
+        /* week-4 */
+        week4: [
             {
                 Days: [
                     {
                         day: 1,
                         name: "Full Body Workout",
                         exercises: [
-                            { name: "Jump Rope or Invisible Jump Rope", time: "3 minutes" },
-                            { name: "Bodyweight Squats", sets: 4, reps: 25 },
-                            { name: "Push-Ups", sets: 4, reps: 15 },
-                            { name: "Glute Bridges", sets: 4, reps: 30 },
-                            { name: "Plank", sets: 4, time: "50 seconds" },
-                            { name: "Mountain Climbers", sets: 4, time: "1 minute 15 seconds" }
+                            { name: "Jumping Jacks", time: "3 minutes" ,image: "Exercise-gif/WL-Jumping-jack.gif"},
+                            { name: "Bodyweight Squats", sets: 4, reps: 25 ,image: "Exercise-gif/WG-bodyweight-squat.gif"},
+                            { name: "Push-Ups", sets: 4, reps: 15 ,image: "Exercise-gif/WG-Push-Up.gif"},
+                            { name: "Glute Bridges", sets: 4, reps: 30 ,image: "Exercise-gif/WG-Glute-Bridge.gif"},
+                            { name: "Plank", sets: 4, time: "45 seconds" ,image: "Exercise-gif/WF-plank.gif"},
+                            { name: "Mountain Climbers", sets: 4, time: "1 minute" ,image: "Exercise-gif/WL-Mountain-Climber.gif"}
                         ]
                     },
                     {
                         day: 2,
                         name: "Cardio",
                         exercises: [
-                            { name: "Marching in Place", time: "2 minutes" },
-                            { name: "Brisk Walking or Jogging in Place", time: "45 minutes" }
+                            { name: "Marching in Place", time: "3 minutes" ,image: "Exercise-gif/WL-weight-Skater.gif"},
+                            { name: "Brisk Walking or Jogging in Place", time: "45 minutes",image: "Exercise-gif/WL-Butt-Kicks.gif"}
                         ]
                     },
                     {
                         day: 3,
                         name: "Strength Training",
                         exercises: [
-                            { name: "Arm Circles", time: "1 minute" },
-                            { name: "Lunges", sets: 4, reps: 18, perLeg: true },
-                            { name: "Dumbbell Rows", sets: 4, reps: 20, perArm: true },
-                            { name: "Tricep Dips", sets: 4, reps: 18 },
-                            { name: "Side Plank", sets: 4, time: "35 seconds", perSide: true }
+                            { name: "Arm Circles", time: "2 minutes" ,image: "Exercise-gif/WL-Arm-Circles.gif"},
+                            { name: "Lunges", sets: 4, reps: 20, perLeg: true ,image: "Exercise-gif/WG-bodyweight-lunges.gif"},
+                            { name: "Dumbbell Rows", sets: 4, reps: 20, perArm: true ,image: "Exercise-gif/WL-Dumbbell-Row.gif"},
+                            { name: "Tricep Dips", sets: 4, reps: 20 ,image: "Exercise-gif/WL-Triceps-Dips.gif"},
+                            { name: "Side Plank", sets: 4, time: "30 seconds", perSide: true ,image: "Exercise-gif/WL-Side-Plank.gif"}
                         ]
                     },
                     {
@@ -1338,90 +1417,20 @@ const WeightLoss = [
                         day: 5,
                         name: "Cardio",
                         exercises: [
-                            { name: "High Knees", time: "1 minute" },
-                            { name: "Jump Rope or Invisible Jump Rope", time: "35 minutes" },
-                            { name: "Brisk Walking or Jogging", time: "25 minutes" }
+                            { name: "High Knees", time: "2 minutes" ,image: "Exercise-gif/WL-Elbow-To-Knee.gif"},
+                            { name: "Jump Rope or Invisible Jump Rope", time: "35 minutes" ,image: "Exercise-gif/WL-Jump-Rope.gif"},
+                            { name: "Brisk Walking or Jogging", time: "25 minutes" ,image: "Exercise-gif/WL-Briskly-Walking.gif"}
                         ]
                     },
                     {
                         day: 6,
                         name: "Full Body Workout",
                         exercises: [
-                            { name: "Dynamic Stretches", time: "3 minutes" },
-                            { name: "Burpees", sets: 4, reps: 18 },
-                            { name: "Bicycle Crunches", sets: 4, reps: 30, perSide: true },
-                            { name: "Step-Ups", sets: 4, reps: 25, perLeg: true },
-                            { name: "Russian Twists", sets: 4, reps: 35, perSide: true }
-                        ]
-                    },
-                    {
-                        day: 7,
-                        name: "Rest"
-                    }
-                ]
-            },
-        ],
-
-        /* week-4 */
-        week4: [
-            {
-                Days: [
-                    {
-                        day: 1,
-                        name: "Full Body Workout",
-                        exercises: [
-                            { name: "Jump Rope or Invisible Jump Rope", time: "3 minutes" },
-                            { name: "Bodyweight Squats", sets: 4, reps: 30 },
-                            { name: "Push-Ups", sets: 4, reps: 20 },
-                            { name: "Glute Bridges", sets: 4, reps: 35 },
-                            { name: "Plank", sets: 4, time: "1 minute" },
-                            { name: "Mountain Climbers", sets: 4, time: "1 minute 30 seconds" }
-                        ]
-                    },
-                    {
-                        day: 2,
-                        name: "Cardio",
-                        exercises: [
-                            { name: "Marching in Place", time: "2 minutes" },
-                            { name: "Brisk Walking or Jogging in Place", time: "50 minutes" }
-                        ]
-                    },
-                    {
-                        day: 3,
-                        name: "Strength Training",
-                        exercises: [
-                            { name: "Arm Circles", time: "1 minute" },
-                            { name: "Lunges", sets: 4, reps: 25, perLeg: true },
-                            { name: "Dumbbell Rows", sets: 4, reps: 25, perArm: true },
-                            { name: "Tricep Dips", sets: 4, reps: 20 },
-                            { name: "Side Plank", sets: 4, time: "40 seconds", perSide: true }
-                        ]
-                    },
-                    {
-                        day: 4,
-                        name: "Rest/Active Recovery",
-                        exercises: [
-                            { name: "Gentle Yoga or Stretching", time: "40 minutes" }
-                        ]
-                    },
-                    {
-                        day: 5,
-                        name: "Cardio",
-                        exercises: [
-                            { name: "High Knees", time: "1 minute" },
-                            { name: "Jump Rope or Invisible Jump Rope", time: "40 minutes" },
-                            { name: "Brisk Walking or Jogging", time: "30 minutes" }
-                        ]
-                    },
-                    {
-                        day: 6,
-                        name: "Full Body Workout",
-                        exercises: [
-                            { name: "Dynamic Stretches", time: "3 minutes" },
-                            { name: "Burpees", sets: 4, reps: 20 },
-                            { name: "Bicycle Crunches", sets: 4, reps: 35, perSide: true },
-                            { name: "Step-Ups", sets: 4, reps: 30, perLeg: true },
-                            { name: "Russian Twists", sets: 4, reps: 40, perSide: true }
+                            { name: "Dynamic Stretches", time: "3 minutes" ,image: "Exercise-gif/WL-Dynamic-Chest-Stretch.gif"},
+                            { name: "Burpees", sets: 4, reps: 20 ,image: "Exercise-gif/WL-burpees.gif"},
+                            { name: "Bicycle Crunches", sets: 4, reps: 30, perSide: true ,image: "Exercise-gif/WL-Bicycle-Crunch.gif"},
+                            { name: "Step-Ups", sets: 4, reps: 25, perLeg: true ,image: "Exercise-gif/WG-weighted-step-up.gif"},
+                            { name: "Russian Twists", sets: 4, reps: 35, perSide: true ,image: "Exercise-gif/WL-Crunch.gif"}
                         ]
                     },
                     {
@@ -1431,8 +1440,7 @@ const WeightLoss = [
                 ]
             }
         ]
-
-
+        
     },
 
     /* Advance exercise */
@@ -1446,31 +1454,101 @@ const WeightLoss = [
                         day: 1,
                         name: "Full Body Workout",
                         exercises: [
-                            { name: "Jump Rope or Invisible Jump Rope", time: "5 minutes" },
-                            { name: "Bodyweight Squats", sets: 5, reps: 20 },
-                            { name: "Push-Ups", sets: 5, reps: 15 },
-                            { name: "Glute Bridges", sets: 5, reps: 25 },
-                            { name: "Plank", sets: 5, time: "45 seconds" },
-                            { name: "Mountain Climbers", sets: 5, time: "1 minute" }
+                            { name: "Jumping Jacks", time: "3 minutes", image: "Exercise-gif/WL-Jumping-jack.gif" },
+                            { name: "Bodyweight Squats", sets: 4, reps: 15, image: "Exercise-gif/WG-bodyweight-squat.gif" },
+                            { name: "Push-Ups", sets: 4, reps: 12, image: "Exercise-gif/WG-Push-Up.gif" },
+                            { name: "Glute Bridges", sets: 4, reps: 20, image: "Exercise-gif/WG-Glute-Bridge.gif" },
+                            { name: "Plank", sets: 4, time: "30 seconds", image: "Exercise-gif/WF-plank.gif" },
+                            { name: "Mountain Climbers", sets: 4, time: "40 seconds", image: "Exercise-gif/WL-Mountain-Climber.gif" }
                         ]
                     },
                     {
                         day: 2,
                         name: "Cardio",
                         exercises: [
-                            { name: "Marching in Place", time: "2 minutes" },
-                            { name: "Brisk Walking or Jogging in Place", time: "45 minutes" }
+                            { name: "Marching in Place", time: "3 minutes", image: "Exercise-gif/WL-weight-Skater.gif" },
+                            { name: "Brisk Walking or Jogging in Place", time: "35 minutes", image: "Exercise-gif/WL-Butt-Kicks.gif" }
                         ]
                     },
                     {
                         day: 3,
                         name: "Strength Training",
                         exercises: [
-                            { name: "Arm Circles", time: "1 minute" },
-                            { name: "Lunges", sets: 5, reps: 15, perLeg: true },
-                            { name: "Dumbbell Rows", sets: 5, reps: 20, perArm: true },
-                            { name: "Tricep Dips", sets: 5, reps: 15 },
-                            { name: "Side Plank", sets: 5, time: "30 seconds", perSide: true }
+                            { name: "Arm Circles", time: "2 minutes", image: "Exercise-gif/WL-Arm-Circles.gif" },
+                            { name: "Lunges", sets: 4, reps: 15, perLeg: true, image: "Exercise-gif/WG-bodyweight-lunges.gif" },
+                            { name: "Dumbbell Rows", sets: 4, reps: 15, perArm: true, image: "Exercise-gif/WL-Dumbbell-Row.gif" },
+                            { name: "Tricep Dips", sets: 4, reps: 12, image: "Exercise-gif/WL-Triceps-Dips.gif" },
+                            { name: "Side Plank", sets: 4, time: "20 seconds", perSide: true, image: "Exercise-gif/WL-Side-Plank.gif" }
+                        ]
+                    },
+                    {
+                        day: 4,
+                        name: "Rest/Active Recovery",
+                        exercises: [
+                            { name: "Gentle Yoga or Stretching", time: "25 minutes" }
+                        ]
+                    },
+                    {
+                        day: 5,
+                        name: "Cardio",
+                        exercises: [
+                            { name: "High Knees", time: "1.5 minutes", image: "Exercise-gif/WL-Elbow-To-Knee.gif" },
+                            { name: "Jump Rope or Invisible Jump Rope", time: "25 minutes", image: "Exercise-gif/WL-Jump-Rope.gif" },
+                            { name: "Brisk Walking or Jogging", time: "15 minutes", image: "Exercise-gif/WL-Briskly-Walking.gif" }
+                        ]
+                    },
+                    {
+                        day: 6,
+                        name: "Full Body Workout",
+                        exercises: [
+                            { name: "Dynamic Stretches", time: "3 minutes", image: "Exercise-gif/WL-Dynamic-Chest-Stretch.gif" },
+                            { name: "Burpees", sets: 4, reps: 15, image: "Exercise-gif/WL-burpees.gif" },
+                            { name: "Bicycle Crunches", sets: 4, reps: 20, perSide: true, image: "Exercise-gif/WL-Bicycle-Crunch.gif" },
+                            { name: "Step-Ups", sets: 4, reps: 15, perLeg: true, image: "Exercise-gif/WG-weighted-step-up.gif" },
+                            { name: "Russian Twists", sets: 4, reps: 25, perSide: true, image: "Exercise-gif/WL-Crunch.gif" }
+                        ]
+                    },
+                    {
+                        day: 7,
+                        name: "Rest"
+                    }
+                ]
+            }
+        ],
+    
+        /* week-2 */
+        week2: [
+            {
+                Days: [
+                    {
+                        day: 1,
+                        name: "Full Body Workout",
+                        exercises: [
+                            { name: "Jumping Jacks", time: "3.5 minutes", image: "Exercise-gif/WL-Jumping-jack.gif" },
+                            { name: "Bodyweight Squats", sets: 5, reps: 20, image: "Exercise-gif/WG-bodyweight-squat.gif" },
+                            { name: "Push-Ups", sets: 5, reps: 15, image: "Exercise-gif/WG-Push-Up.gif" },
+                            { name: "Glute Bridges", sets: 5, reps: 25, image: "Exercise-gif/WG-Glute-Bridge.gif" },
+                            { name: "Plank", sets: 5, time: "40 seconds", image: "Exercise-gif/WF-plank.gif" },
+                            { name: "Mountain Climbers", sets: 5, time: "50 seconds", image: "Exercise-gif/WL-Mountain-Climber.gif" }
+                        ]
+                    },
+                    {
+                        day: 2,
+                        name: "Cardio",
+                        exercises: [
+                            { name: "Marching in Place", time: "3.5 minutes", image: "Exercise-gif/WL-weight-Skater.gif" },
+                            { name: "Brisk Walking or Jogging in Place", time: "40 minutes", image: "Exercise-gif/WL-Butt-Kicks.gif" }
+                        ]
+                    },
+                    {
+                        day: 3,
+                        name: "Strength Training",
+                        exercises: [
+                            { name: "Arm Circles", time: "2.5 minutes", image: "Exercise-gif/WL-Arm-Circles.gif" },
+                            { name: "Lunges", sets: 5, reps: 20, perLeg: true, image: "Exercise-gif/WG-bodyweight-lunges.gif" },
+                            { name: "Dumbbell Rows", sets: 5, reps: 18, perArm: true, image: "Exercise-gif/WL-Dumbbell-Row.gif" },
+                            { name: "Tricep Dips", sets: 5, reps: 15, image: "Exercise-gif/WL-Triceps-Dips.gif" },
+                            { name: "Side Plank", sets: 5, time: "25 seconds", perSide: true, image: "Exercise-gif/WL-Side-Plank.gif" }
                         ]
                     },
                     {
@@ -1484,20 +1562,20 @@ const WeightLoss = [
                         day: 5,
                         name: "Cardio",
                         exercises: [
-                            { name: "High Knees", time: "1 minute" },
-                            { name: "Jump Rope or Invisible Jump Rope", time: "30 minutes" },
-                            { name: "Brisk Walking or Jogging", time: "20 minutes" }
+                            { name: "High Knees", time: "2 minutes", image: "Exercise-gif/WL-Elbow-To-Knee.gif" },
+                            { name: "Jump Rope or Invisible Jump Rope", time: "30 minutes", image: "Exercise-gif/WL-Jump-Rope.gif" },
+                            { name: "Brisk Walking or Jogging", time: "20 minutes", image: "Exercise-gif/WL-Briskly-Walking.gif" }
                         ]
                     },
                     {
                         day: 6,
                         name: "Full Body Workout",
                         exercises: [
-                            { name: "Dynamic Stretches", time: "5 minutes" },
-                            { name: "Burpees", sets: 5, reps: 15 },
-                            { name: "Bicycle Crunches", sets: 5, reps: 25, perSide: true },
-                            { name: "Step-Ups", sets: 5, reps: 20, perLeg: true },
-                            { name: "Russian Twists", sets: 5, reps: 30, perSide: true }
+                            { name: "Dynamic Stretches", time: "3.5 minutes", image: "Exercise-gif/WL-Dynamic-Chest-Stretch.gif" },
+                            { name: "Burpees", sets: 5, reps: 15, image: "Exercise-gif/WL-burpees.gif" },
+                            { name: "Bicycle Crunches", sets: 5, reps: 25, perSide: true, image: "Exercise-gif/WL-Bicycle-Crunch.gif" },
+                            { name: "Step-Ups", sets: 5, reps: 20, perLeg: true, image: "Exercise-gif/WG-weighted-step-up.gif" },
+                            { name: "Russian Twists", sets: 5, reps: 30, perSide: true, image: "Exercise-gif/WL-Crunch.gif" }
                         ]
                     },
                     {
@@ -1507,40 +1585,40 @@ const WeightLoss = [
                 ]
             }
         ],
-
-        /* week-2 */
-        week2: [
+    
+        /* week-3 */
+        week3: [
             {
                 Days: [
                     {
                         day: 1,
                         name: "Full Body Workout",
                         exercises: [
-                            { name: "Jump Rope or Invisible Jump Rope", time: "5 minutes" },
-                            { name: "Bodyweight Squats", sets: 5, reps: 25 },
-                            { name: "Push-Ups", sets: 5, reps: 18 },
-                            { name: "Glute Bridges", sets: 5, reps: 30 },
-                            { name: "Plank", sets: 5, time: "1 minute" },
-                            { name: "Mountain Climbers", sets: 5, time: "1 minute 15 seconds" }
+                            { name: "Jumping Jacks", time: "4 minutes", image: "Exercise-gif/WL-Jumping-jack.gif" },
+                            { name: "Bodyweight Squats", sets: 5, reps: 25, image: "Exercise-gif/WG-bodyweight-squat.gif" },
+                            { name: "Push-Ups", sets: 5, reps: 18, image: "Exercise-gif/WG-Push-Up.gif" },
+                            { name: "Glute Bridges", sets: 5, reps: 30, image: "Exercise-gif/WG-Glute-Bridge.gif" },
+                            { name: "Plank", sets: 5, time: "50 seconds", image: "Exercise-gif/WF-plank.gif" },
+                            { name: "Mountain Climbers", sets: 5, time: "60 seconds", image: "Exercise-gif/WL-Mountain-Climber.gif" }
                         ]
                     },
                     {
                         day: 2,
                         name: "Cardio",
                         exercises: [
-                            { name: "Marching in Place", time: "2 minutes" },
-                            { name: "Brisk Walking or Jogging in Place", time: "50 minutes" }
+                            { name: "Marching in Place", time: "4 minutes", image: "Exercise-gif/WL-weight-Skater.gif" },
+                            { name: "Brisk Walking or Jogging in Place", time: "45 minutes", image: "Exercise-gif/WL-Butt-Kicks.gif" }
                         ]
                     },
                     {
                         day: 3,
                         name: "Strength Training",
                         exercises: [
-                            { name: "Arm Circles", time: "1 minute" },
-                            { name: "Lunges", sets: 5, reps: 18, perLeg: true },
-                            { name: "Dumbbell Rows", sets: 5, reps: 22, perArm: true },
-                            { name: "Tricep Dips", sets: 5, reps: 18 },
-                            { name: "Side Plank", sets: 5, time: "35 seconds", perSide: true }
+                            { name: "Arm Circles", time: "3 minutes", image: "Exercise-gif/WL-Arm-Circles.gif" },
+                            { name: "Lunges", sets: 5, reps: 25, perLeg: true, image: "Exercise-gif/WG-bodyweight-lunges.gif" },
+                            { name: "Dumbbell Rows", sets: 5, reps: 20, perArm: true, image: "Exercise-gif/WL-Dumbbell-Row.gif" },
+                            { name: "Tricep Dips", sets: 5, reps: 18, image: "Exercise-gif/WL-Triceps-Dips.gif" },
+                            { name: "Side Plank", sets: 5, time: "30 seconds", perSide: true, image: "Exercise-gif/WL-Side-Plank.gif" }
                         ]
                     },
                     {
@@ -1554,20 +1632,20 @@ const WeightLoss = [
                         day: 5,
                         name: "Cardio",
                         exercises: [
-                            { name: "High Knees", time: "1 minute" },
-                            { name: "Jump Rope or Invisible Jump Rope", time: "35 minutes" },
-                            { name: "Brisk Walking or Jogging", time: "25 minutes" }
+                            { name: "High Knees", time: "2.5 minutes", image: "Exercise-gif/WL-Elbow-To-Knee.gif" },
+                            { name: "Jump Rope or Invisible Jump Rope", time: "35 minutes", image: "Exercise-gif/WL-Jump-Rope.gif" },
+                            { name: "Brisk Walking or Jogging", time: "25 minutes", image: "Exercise-gif/WL-Briskly-Walking.gif" }
                         ]
                     },
                     {
                         day: 6,
                         name: "Full Body Workout",
                         exercises: [
-                            { name: "Dynamic Stretches", time: "5 minutes" },
-                            { name: "Burpees", sets: 5, reps: 18 },
-                            { name: "Bicycle Crunches", sets: 5, reps: 30, perSide: true },
-                            { name: "Step-Ups", sets: 5, reps: 25, perLeg: true },
-                            { name: "Russian Twists", sets: 5, reps: 35, perSide: true }
+                            { name: "Dynamic Stretches", time: "4 minutes", image: "Exercise-gif/WL-Dynamic-Chest-Stretch.gif" },
+                            { name: "Burpees", sets: 5, reps: 20, image: "Exercise-gif/WL-burpees.gif" },
+                            { name: "Bicycle Crunches", sets: 5, reps: 30, perSide: true, image: "Exercise-gif/WL-Bicycle-Crunch.gif" },
+                            { name: "Step-Ups", sets: 5, reps: 25, perLeg: true, image: "Exercise-gif/WG-weighted-step-up.gif" },
+                            { name: "Russian Twists", sets: 5, reps: 35, perSide: true, image: "Exercise-gif/WL-Crunch.gif" }
                         ]
                     },
                     {
@@ -1577,40 +1655,40 @@ const WeightLoss = [
                 ]
             }
         ],
-
-        /* week-3 */
-        week3: [
+    
+        /* week-4 */
+        week4: [
             {
                 Days: [
                     {
                         day: 1,
                         name: "Full Body Workout",
                         exercises: [
-                            { name: "Jump Rope or Invisible Jump Rope", time: "5 minutes" },
-                            { name: "Bodyweight Squats", sets: 5, reps: 30 },
-                            { name: "Push-Ups", sets: 5, reps: 20 },
-                            { name: "Glute Bridges", sets: 5, reps: 35 },
-                            { name: "Plank", sets: 5, time: "1 minute 15 seconds" },
-                            { name: "Mountain Climbers", sets: 5, time: "1 minute 30 seconds" }
+                            { name: "Jumping Jacks", time: "4.5 minutes", image: "Exercise-gif/WL-Jumping-jack.gif" },
+                            { name: "Bodyweight Squats", sets: 6, reps: 30, image: "Exercise-gif/WG-bodyweight-squat.gif" },
+                            { name: "Push-Ups", sets: 6, reps: 20, image: "Exercise-gif/WG-Push-Up.gif" },
+                            { name: "Glute Bridges", sets: 6, reps: 35, image: "Exercise-gif/WG-Glute-Bridge.gif" },
+                            { name: "Plank", sets: 6, time: "1 minute", image: "Exercise-gif/WF-plank.gif" },
+                            { name: "Mountain Climbers", sets: 6, time: "70 seconds", image: "Exercise-gif/WL-Mountain-Climber.gif" }
                         ]
                     },
                     {
                         day: 2,
                         name: "Cardio",
                         exercises: [
-                            { name: "Marching in Place", time: "2 minutes" },
-                            { name: "Brisk Walking or Jogging in Place", time: "55 minutes" }
+                            { name: "Marching in Place", time: "4.5 minutes", image: "Exercise-gif/WL-weight-Skater.gif" },
+                            { name: "Brisk Walking or Jogging in Place", time: "50 minutes", image: "Exercise-gif/WL-Butt-Kicks.gif" }
                         ]
                     },
                     {
                         day: 3,
                         name: "Strength Training",
                         exercises: [
-                            { name: "Arm Circles", time: "1 minute" },
-                            { name: "Lunges", sets: 5, reps: 20, perLeg: true },
-                            { name: "Dumbbell Rows", sets: 5, reps: 25, perArm: true },
-                            { name: "Tricep Dips", sets: 5, reps: 20 },
-                            { name: "Side Plank", sets: 5, time: "40 seconds", perSide: true }
+                            { name: "Arm Circles", time: "3.5 minutes", image: "Exercise-gif/WL-Arm-Circles.gif" },
+                            { name: "Lunges", sets: 6, reps: 30, perLeg: true, image: "Exercise-gif/WG-bodyweight-lunges.gif" },
+                            { name: "Dumbbell Rows", sets: 6, reps: 25, perArm: true, image: "Exercise-gif/WL-Dumbbell-Row.gif" },
+                            { name: "Tricep Dips", sets: 6, reps: 20, image: "Exercise-gif/WL-Triceps-Dips.gif" },
+                            { name: "Side Plank", sets: 6, time: "35 seconds", perSide: true, image: "Exercise-gif/WL-Side-Plank.gif" }
                         ]
                     },
                     {
@@ -1624,90 +1702,20 @@ const WeightLoss = [
                         day: 5,
                         name: "Cardio",
                         exercises: [
-                            { name: "High Knees", time: "1 minute" },
-                            { name: "Jump Rope or Invisible Jump Rope", time: "40 minutes" },
-                            { name: "Brisk Walking or Jogging", time: "30 minutes" }
+                            { name: "High Knees", time: "3 minutes", image: "Exercise-gif/WL-Elbow-To-Knee.gif" },
+                            { name: "Jump Rope or Invisible Jump Rope", time: "40 minutes", image: "Exercise-gif/WL-Jump-Rope.gif" },
+                            { name: "Brisk Walking or Jogging", time: "30 minutes", image: "Exercise-gif/WL-Briskly-Walking.gif" }
                         ]
                     },
                     {
                         day: 6,
                         name: "Full Body Workout",
                         exercises: [
-                            { name: "Dynamic Stretches", time: "5 minutes" },
-                            { name: "Burpees", sets: 5, reps: 20 },
-                            { name: "Bicycle Crunches", sets: 5, reps: 35, perSide: true },
-                            { name: "Step-Ups", sets: 5, reps: 30, perLeg: true },
-                            { name: "Russian Twists", sets: 5, reps: 40, perSide: true }
-                        ]
-                    },
-                    {
-                        day: 7,
-                        name: "Rest"
-                    }
-                ]
-            }
-        ],
-
-        /* week-4 */
-        week4: [
-            {
-                Days: [
-                    {
-                        day: 1,
-                        name: "Full Body Workout",
-                        exercises: [
-                            { name: "Jump Rope or Invisible Jump Rope", time: "5 minutes" },
-                            { name: "Bodyweight Squats", sets: 5, reps: 35 },
-                            { name: "Push-Ups", sets: 5, reps: 25 },
-                            { name: "Glute Bridges", sets: 5, reps: 40 },
-                            { name: "Plank", sets: 5, time: "1 minute 30 seconds" },
-                            { name: "Mountain Climbers", sets: 5, time: "2 minutes" }
-                        ]
-                    },
-                    {
-                        day: 2,
-                        name: "Cardio",
-                        exercises: [
-                            { name: "Marching in Place", time: "2 minutes" },
-                            { name: "Brisk Walking or Jogging in Place", time: "60 minutes" }
-                        ]
-                    },
-                    {
-                        day: 3,
-                        name: "Strength Training",
-                        exercises: [
-                            { name: "Arm Circles", time: "1 minute" },
-                            { name: "Lunges", sets: 5, reps: 25, perLeg: true },
-                            { name: "Dumbbell Rows", sets: 5, reps: 30, perArm: true },
-                            { name: "Tricep Dips", sets: 5, reps: 25 },
-                            { name: "Side Plank", sets: 5, time: "45 seconds", perSide: true }
-                        ]
-                    },
-                    {
-                        day: 4,
-                        name: "Rest/Active Recovery",
-                        exercises: [
-                            { name: "Gentle Yoga or Stretching", time: "45 minutes" }
-                        ]
-                    },
-                    {
-                        day: 5,
-                        name: "Cardio",
-                        exercises: [
-                            { name: "High Knees", time: "1 minute" },
-                            { name: "Jump Rope or Invisible Jump Rope", time: "45 minutes" },
-                            { name: "Brisk Walking or Jogging", time: "35 minutes" }
-                        ]
-                    },
-                    {
-                        day: 6,
-                        name: "Full Body Workout",
-                        exercises: [
-                            { name: "Dynamic Stretches", time: "5 minutes" },
-                            { name: "Burpees", sets: 5, reps: 25 },
-                            { name: "Bicycle Crunches", sets: 5, reps: 40, perSide: true },
-                            { name: "Step-Ups", sets: 5, reps: 35, perLeg: true },
-                            { name: "Russian Twists", sets: 5, reps: 45, perSide: true }
+                            { name: "Dynamic Stretches", time: "4.5 minutes", image: "Exercise-gif/WL-Dynamic-Chest-Stretch.gif" },
+                            { name: "Burpees", sets: 6, reps: 20, image: "Exercise-gif/WL-burpees.gif" },
+                            { name: "Bicycle Crunches", sets: 6, reps: 35, perSide: true, image: "Exercise-gif/WL-Bicycle-Crunch.gif" },
+                            { name: "Step-Ups", sets: 6, reps: 30, perLeg: true, image: "Exercise-gif/WG-weighted-step-up.gif" },
+                            { name: "Russian Twists", sets: 6, reps: 40, perSide: true, image: "Exercise-gif/WL-Crunch.gif" }
                         ]
                     },
                     {
@@ -1717,9 +1725,8 @@ const WeightLoss = [
                 ]
             }
         ]
-
-
     }
+    
 ]
 
 
